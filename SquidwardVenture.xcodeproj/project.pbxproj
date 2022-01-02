@@ -1,0 +1,665 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3919896126BC841F002CCD81 /* Styles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3919895F26BC841F002CCD81 /* Styles.cpp */; };
+		3919896626BC917A002CCD81 /* unfazedSquidward.png in Resources */ = {isa = PBXBuildFile; fileRef = 3919896526BC9179002CCD81 /* unfazedSquidward.png */; };
+		3919896F26BC932F002CCD81 /* Intro_to_Krusty_Krab.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3919896D26BC932F002CCD81 /* Intro_to_Krusty_Krab.cpp */; };
+		3919897426BCA30D002CCD81 /* krabsOffice.png in Resources */ = {isa = PBXBuildFile; fileRef = 3919897326BCA30D002CCD81 /* krabsOffice.png */; };
+		3929B7CF26C3C94700A80C7E /* SquidwardSpriteKrustyKrab.png in Resources */ = {isa = PBXBuildFile; fileRef = 3929B7CE26C3C94700A80C7E /* SquidwardSpriteKrustyKrab.png */; };
+		397E1EAD26F83B6B00D03628 /* stackofBotBun.png in Resources */ = {isa = PBXBuildFile; fileRef = 397E1EAC26F83B6B00D03628 /* stackofBotBun.png */; };
+		397E1EB026F83B7100D03628 /* stackofBuns.png in Resources */ = {isa = PBXBuildFile; fileRef = 397E1EAF26F83B7100D03628 /* stackofBuns.png */; };
+		397E1EB326F83B7700D03628 /* stackofCheese.png in Resources */ = {isa = PBXBuildFile; fileRef = 397E1EB226F83B7700D03628 /* stackofCheese.png */; };
+		397E1EB626F83B7B00D03628 /* stackofLettuce.png in Resources */ = {isa = PBXBuildFile; fileRef = 397E1EB526F83B7B00D03628 /* stackofLettuce.png */; };
+		397E1EB926F83B8100D03628 /* stackofPickles.png in Resources */ = {isa = PBXBuildFile; fileRef = 397E1EB826F83B8100D03628 /* stackofPickles.png */; };
+		397E1EBC26F83B9400D03628 /* bun.png in Resources */ = {isa = PBXBuildFile; fileRef = 397E1EBB26F83B9400D03628 /* bun.png */; };
+		397E1EBF26F83B9900D03628 /* bottomBun.png in Resources */ = {isa = PBXBuildFile; fileRef = 397E1EBE26F83B9900D03628 /* bottomBun.png */; };
+		397E1EC226F83BA000D03628 /* perfectPatty.png in Resources */ = {isa = PBXBuildFile; fileRef = 397E1EC126F83BA000D03628 /* perfectPatty.png */; };
+		397E1EC526F83BA400D03628 /* burntPatty.png in Resources */ = {isa = PBXBuildFile; fileRef = 397E1EC426F83BA400D03628 /* burntPatty.png */; };
+		397E1EC826F83BAA00D03628 /* lettuce.png in Resources */ = {isa = PBXBuildFile; fileRef = 397E1EC726F83BAA00D03628 /* lettuce.png */; };
+		397E1ECB26F83BB000D03628 /* cheese.png in Resources */ = {isa = PBXBuildFile; fileRef = 397E1ECA26F83BB000D03628 /* cheese.png */; };
+		397E1ECE26F83BB700D03628 /* pickles.png in Resources */ = {isa = PBXBuildFile; fileRef = 397E1ECD26F83BB700D03628 /* pickles.png */; };
+		397E1ED126F83BBE00D03628 /* patty.png in Resources */ = {isa = PBXBuildFile; fileRef = 397E1ED026F83BBE00D03628 /* patty.png */; };
+		397E1ED426F83BC600D03628 /* ketchup.png in Resources */ = {isa = PBXBuildFile; fileRef = 397E1ED326F83BC600D03628 /* ketchup.png */; };
+		397E1ED726F83BCD00D03628 /* mustard.png in Resources */ = {isa = PBXBuildFile; fileRef = 397E1ED626F83BCD00D03628 /* mustard.png */; };
+		397E1EDA26F83BD200D03628 /* mayo.png in Resources */ = {isa = PBXBuildFile; fileRef = 397E1ED926F83BD200D03628 /* mayo.png */; };
+		397E1EDE26F83CA800D03628 /* stackofPatties.png in Resources */ = {isa = PBXBuildFile; fileRef = 397E1EDD26F83CA800D03628 /* stackofPatties.png */; };
+		3989D7A226ABF7B7007F6D25 /* game_intro.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3989D79F26ABF7B7007F6D25 /* game_intro.wav */; };
+		3989D7A326ABF7B7007F6D25 /* game_map_music.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3989D7A026ABF7B7007F6D25 /* game_map_music.wav */; };
+		3989D7A426ABF7B7007F6D25 /* krusty_krab_music.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3989D7A126ABF7B7007F6D25 /* krusty_krab_music.wav */; };
+		3989D7AA26ABF7CD007F6D25 /* Impact.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3989D7A726ABF7CD007F6D25 /* Impact.ttf */; };
+		3989D7AB26ABF7CD007F6D25 /* some-time-later.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3989D7A826ABF7CD007F6D25 /* some-time-later.ttf */; };
+		3989D7AC26ABF7CD007F6D25 /* Arial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3989D7A926ABF7CD007F6D25 /* Arial.ttf */; };
+		3989D7B926ABF7FF007F6D25 /* GameMap.png in Resources */ = {isa = PBXBuildFile; fileRef = 3989D7B126ABF7FF007F6D25 /* GameMap.png */; };
+		3989D7BB26ABF7FF007F6D25 /* 304201517179211.png in Resources */ = {isa = PBXBuildFile; fileRef = 3989D7B326ABF7FF007F6D25 /* 304201517179211.png */; };
+		3989D7BC26ABF7FF007F6D25 /* KrabbyPattyGame.png in Resources */ = {isa = PBXBuildFile; fileRef = 3989D7B426ABF7FF007F6D25 /* KrabbyPattyGame.png */; };
+		3989D7BD26ABF7FF007F6D25 /* introSquidward.png in Resources */ = {isa = PBXBuildFile; fileRef = 3989D7B526ABF7FF007F6D25 /* introSquidward.png */; };
+		3989D7BE26ABF7FF007F6D25 /* squidGameMap.png in Resources */ = {isa = PBXBuildFile; fileRef = 3989D7B626ABF7FF007F6D25 /* squidGameMap.png */; };
+		3989D7BF26ABF7FF007F6D25 /* squidwardSprites.png in Resources */ = {isa = PBXBuildFile; fileRef = 3989D7B726ABF7FF007F6D25 /* squidwardSprites.png */; };
+		39AC3A0326A9037200BC3192 /* SquidwardVenture-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 39AC3A0226A9037200BC3192 /* SquidwardVenture-Info.plist */; };
+		39AE0FCF26BDE3C900FE41C0 /* KrustyKrabTextBox.png in Resources */ = {isa = PBXBuildFile; fileRef = 39AE0FCE26BDE3C900FE41C0 /* KrustyKrabTextBox.png */; };
+		39B418BC26AC0C1200A7D22D /* OptionsScrene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39B418AF26AC0C1200A7D22D /* OptionsScrene.cpp */; };
+		39B418BD26AC0C1200A7D22D /* SpongebobHouse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39B418B026AC0C1200A7D22D /* SpongebobHouse.cpp */; };
+		39B418BE26AC0C1200A7D22D /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39B418B126AC0C1200A7D22D /* Player.cpp */; };
+		39B418BF26AC0C1200A7D22D /* MainMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39B418B226AC0C1200A7D22D /* MainMenu.cpp */; };
+		39B418C026AC0C1200A7D22D /* TentacleAcres.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39B418B326AC0C1200A7D22D /* TentacleAcres.cpp */; };
+		39B418C126AC0C1200A7D22D /* GameMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39B418B426AC0C1200A7D22D /* GameMap.cpp */; };
+		39B418C226AC0C1200A7D22D /* SpriteMovements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39B418B526AC0C1200A7D22D /* SpriteMovements.cpp */; };
+		39B418C326AC0C1200A7D22D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39B418B626AC0C1200A7D22D /* main.cpp */; };
+		39B418C426AC0C1200A7D22D /* Worlds.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39B418B726AC0C1200A7D22D /* Worlds.cpp */; };
+		39B418C526AC0C1200A7D22D /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39B418B826AC0C1200A7D22D /* Game.cpp */; };
+		39B418C626AC0C1200A7D22D /* KrustyKrab.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39B418B926AC0C1200A7D22D /* KrustyKrab.cpp */; };
+		39B418C726AC0C1200A7D22D /* SquidwardHome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39B418BA26AC0C1200A7D22D /* SquidwardHome.cpp */; };
+		39B418C826AC0C1200A7D22D /* BoatingSchool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39B418BB26AC0C1200A7D22D /* BoatingSchool.cpp */; };
+		39B5E72B26F7D0B8002E9B5F /* KrabbyPattyBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 39B5E72A26F7D0B8002E9B5F /* KrabbyPattyBG.png */; };
+		39BF4CDB26BDCC3A00C55E10 /* krustyKrab_Krabs.png in Resources */ = {isa = PBXBuildFile; fileRef = 39BF4CDA26BDCC3A00C55E10 /* krustyKrab_Krabs.png */; };
+		39BF4CDE26BDD0C400C55E10 /* 1200MrKrabs.png in Resources */ = {isa = PBXBuildFile; fileRef = 39BF4CDD26BDD0C400C55E10 /* 1200MrKrabs.png */; };
+		39F08AEE26AC1A0F00337FD7 /* sfml-system.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F08AE826AC1A0F00337FD7 /* sfml-system.framework */; };
+		39F08AEF26AC1A0F00337FD7 /* sfml-graphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F08AE926AC1A0F00337FD7 /* sfml-graphics.framework */; };
+		39F08AF026AC1A0F00337FD7 /* SFML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F08AEA26AC1A0F00337FD7 /* SFML.framework */; };
+		39F08AF126AC1A0F00337FD7 /* sfml-audio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F08AEB26AC1A0F00337FD7 /* sfml-audio.framework */; };
+		39F08AF226AC1A0F00337FD7 /* sfml-network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F08AEC26AC1A0F00337FD7 /* sfml-network.framework */; };
+		39F08AF626AC1AA500337FD7 /* libsfml-audio.2.5.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F08AF526AC1AA500337FD7 /* libsfml-audio.2.5.1.dylib */; };
+		39F08AF826AC1AB200337FD7 /* libsfml-graphics.2.5.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F08AF726AC1AB200337FD7 /* libsfml-graphics.2.5.1.dylib */; };
+		39F08AFA26AC1ABC00337FD7 /* libsfml-network.2.5.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F08AF926AC1ABC00337FD7 /* libsfml-network.2.5.1.dylib */; };
+		39F08AFC26AC1AC900337FD7 /* libsfml-system.2.5.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F08AFB26AC1AC900337FD7 /* libsfml-system.2.5.1.dylib */; };
+		39F08AFE26AC1AEE00337FD7 /* libsfml-window.2.5.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F08AFD26AC1AEE00337FD7 /* libsfml-window.2.5.1.dylib */; };
+		39F08B0726AC1EA000337FD7 /* sfml-window.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F08B0626AC1E9F00337FD7 /* sfml-window.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3919895F26BC841F002CCD81 /* Styles.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Styles.cpp; sourceTree = "<group>"; };
+		3919896026BC841F002CCD81 /* Styles.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Styles.hpp; sourceTree = "<group>"; };
+		3919896526BC9179002CCD81 /* unfazedSquidward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unfazedSquidward.png; sourceTree = "<group>"; };
+		3919896D26BC932F002CCD81 /* Intro_to_Krusty_Krab.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Intro_to_Krusty_Krab.cpp; sourceTree = "<group>"; };
+		3919896E26BC932F002CCD81 /* Intro_to_Krusty_Krab.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Intro_to_Krusty_Krab.hpp; sourceTree = "<group>"; };
+		3919897326BCA30D002CCD81 /* krabsOffice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = krabsOffice.png; sourceTree = "<group>"; };
+		3929B7CE26C3C94700A80C7E /* SquidwardSpriteKrustyKrab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SquidwardSpriteKrustyKrab.png; sourceTree = "<group>"; };
+		397E1EAC26F83B6B00D03628 /* stackofBotBun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stackofBotBun.png; sourceTree = "<group>"; };
+		397E1EAF26F83B7100D03628 /* stackofBuns.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stackofBuns.png; sourceTree = "<group>"; };
+		397E1EB226F83B7700D03628 /* stackofCheese.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stackofCheese.png; sourceTree = "<group>"; };
+		397E1EB526F83B7B00D03628 /* stackofLettuce.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stackofLettuce.png; sourceTree = "<group>"; };
+		397E1EB826F83B8100D03628 /* stackofPickles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stackofPickles.png; sourceTree = "<group>"; };
+		397E1EBB26F83B9400D03628 /* bun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bun.png; sourceTree = "<group>"; };
+		397E1EBE26F83B9900D03628 /* bottomBun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottomBun.png; sourceTree = "<group>"; };
+		397E1EC126F83BA000D03628 /* perfectPatty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = perfectPatty.png; sourceTree = "<group>"; };
+		397E1EC426F83BA400D03628 /* burntPatty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = burntPatty.png; sourceTree = "<group>"; };
+		397E1EC726F83BAA00D03628 /* lettuce.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lettuce.png; sourceTree = "<group>"; };
+		397E1ECA26F83BB000D03628 /* cheese.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cheese.png; sourceTree = "<group>"; };
+		397E1ECD26F83BB700D03628 /* pickles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pickles.png; sourceTree = "<group>"; };
+		397E1ED026F83BBE00D03628 /* patty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = patty.png; sourceTree = "<group>"; };
+		397E1ED326F83BC600D03628 /* ketchup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ketchup.png; sourceTree = "<group>"; };
+		397E1ED626F83BCD00D03628 /* mustard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mustard.png; sourceTree = "<group>"; };
+		397E1ED926F83BD200D03628 /* mayo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mayo.png; sourceTree = "<group>"; };
+		397E1EDD26F83CA800D03628 /* stackofPatties.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stackofPatties.png; sourceTree = "<group>"; };
+		3989D79F26ABF7B7007F6D25 /* game_intro.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = game_intro.wav; sourceTree = "<group>"; };
+		3989D7A026ABF7B7007F6D25 /* game_map_music.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = game_map_music.wav; sourceTree = "<group>"; };
+		3989D7A126ABF7B7007F6D25 /* krusty_krab_music.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = krusty_krab_music.wav; sourceTree = "<group>"; };
+		3989D7A726ABF7CD007F6D25 /* Impact.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Impact.ttf; sourceTree = "<group>"; };
+		3989D7A826ABF7CD007F6D25 /* some-time-later.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "some-time-later.ttf"; sourceTree = "<group>"; };
+		3989D7A926ABF7CD007F6D25 /* Arial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Arial.ttf; sourceTree = "<group>"; };
+		3989D7B126ABF7FF007F6D25 /* GameMap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GameMap.png; sourceTree = "<group>"; };
+		3989D7B326ABF7FF007F6D25 /* 304201517179211.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 304201517179211.png; sourceTree = "<group>"; };
+		3989D7B426ABF7FF007F6D25 /* KrabbyPattyGame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KrabbyPattyGame.png; sourceTree = "<group>"; };
+		3989D7B526ABF7FF007F6D25 /* introSquidward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = introSquidward.png; sourceTree = "<group>"; };
+		3989D7B626ABF7FF007F6D25 /* squidGameMap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = squidGameMap.png; sourceTree = "<group>"; };
+		3989D7B726ABF7FF007F6D25 /* squidwardSprites.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = squidwardSprites.png; sourceTree = "<group>"; };
+		39AC39E426A900D000BC3192 /* SquidwardVenture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SquidwardVenture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39AC3A0226A9037200BC3192 /* SquidwardVenture-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SquidwardVenture-Info.plist"; sourceTree = "<group>"; };
+		39AE0FCE26BDE3C900FE41C0 /* KrustyKrabTextBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KrustyKrabTextBox.png; sourceTree = "<group>"; };
+		39B418AF26AC0C1200A7D22D /* OptionsScrene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OptionsScrene.cpp; sourceTree = "<group>"; };
+		39B418B026AC0C1200A7D22D /* SpongebobHouse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SpongebobHouse.cpp; sourceTree = "<group>"; };
+		39B418B126AC0C1200A7D22D /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		39B418B226AC0C1200A7D22D /* MainMenu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MainMenu.cpp; sourceTree = "<group>"; };
+		39B418B326AC0C1200A7D22D /* TentacleAcres.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TentacleAcres.cpp; sourceTree = "<group>"; };
+		39B418B426AC0C1200A7D22D /* GameMap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameMap.cpp; sourceTree = "<group>"; };
+		39B418B526AC0C1200A7D22D /* SpriteMovements.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SpriteMovements.cpp; sourceTree = "<group>"; };
+		39B418B626AC0C1200A7D22D /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		39B418B726AC0C1200A7D22D /* Worlds.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Worlds.cpp; sourceTree = "<group>"; };
+		39B418B826AC0C1200A7D22D /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		39B418B926AC0C1200A7D22D /* KrustyKrab.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KrustyKrab.cpp; sourceTree = "<group>"; };
+		39B418BA26AC0C1200A7D22D /* SquidwardHome.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SquidwardHome.cpp; sourceTree = "<group>"; };
+		39B418BB26AC0C1200A7D22D /* BoatingSchool.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BoatingSchool.cpp; sourceTree = "<group>"; };
+		39B418CA26AC0C2E00A7D22D /* TentacleAcres.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TentacleAcres.hpp; sourceTree = "<group>"; };
+		39B418CB26AC0C2E00A7D22D /* SquidwardHome.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SquidwardHome.hpp; sourceTree = "<group>"; };
+		39B418CC26AC0C2E00A7D22D /* Worlds.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Worlds.hpp; sourceTree = "<group>"; };
+		39B418CD26AC0C2E00A7D22D /* SpriteMovements.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SpriteMovements.hpp; sourceTree = "<group>"; };
+		39B418CE26AC0C2E00A7D22D /* MainMenu.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MainMenu.hpp; sourceTree = "<group>"; };
+		39B418CF26AC0C2E00A7D22D /* BoatingSchool.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BoatingSchool.hpp; sourceTree = "<group>"; };
+		39B418D026AC0C2E00A7D22D /* GameMap.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GameMap.hpp; sourceTree = "<group>"; };
+		39B418D126AC0C2E00A7D22D /* Player.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Player.hpp; sourceTree = "<group>"; };
+		39B418D226AC0C2E00A7D22D /* SpongebobHouse.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SpongebobHouse.hpp; sourceTree = "<group>"; };
+		39B418D326AC0C2E00A7D22D /* Game.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Game.hpp; sourceTree = "<group>"; };
+		39B418D426AC0C2E00A7D22D /* SquidwardMovements.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SquidwardMovements.h; sourceTree = "<group>"; };
+		39B418D526AC0C2E00A7D22D /* KrustyKrab.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = KrustyKrab.hpp; sourceTree = "<group>"; };
+		39B418D626AC0C2E00A7D22D /* OptionsScrene.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = OptionsScrene.hpp; sourceTree = "<group>"; };
+		39B5E72A26F7D0B8002E9B5F /* KrabbyPattyBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KrabbyPattyBG.png; sourceTree = "<group>"; };
+		39BF4CDA26BDCC3A00C55E10 /* krustyKrab_Krabs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = krustyKrab_Krabs.png; sourceTree = "<group>"; };
+		39BF4CDD26BDD0C400C55E10 /* 1200MrKrabs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1200MrKrabs.png; sourceTree = "<group>"; };
+		39F08AE826AC1A0F00337FD7 /* sfml-system.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "sfml-system.framework"; sourceTree = "<group>"; };
+		39F08AE926AC1A0F00337FD7 /* sfml-graphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "sfml-graphics.framework"; sourceTree = "<group>"; };
+		39F08AEA26AC1A0F00337FD7 /* SFML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SFML.framework; sourceTree = "<group>"; };
+		39F08AEB26AC1A0F00337FD7 /* sfml-audio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "sfml-audio.framework"; sourceTree = "<group>"; };
+		39F08AEC26AC1A0F00337FD7 /* sfml-network.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "sfml-network.framework"; sourceTree = "<group>"; };
+		39F08AF526AC1AA500337FD7 /* libsfml-audio.2.5.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-audio.2.5.1.dylib"; path = "ExternalLibraries/SFML/lib/libsfml-audio.2.5.1.dylib"; sourceTree = SOURCE_ROOT; };
+		39F08AF726AC1AB200337FD7 /* libsfml-graphics.2.5.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libsfml-graphics.2.5.1.dylib"; sourceTree = "<group>"; };
+		39F08AF926AC1ABC00337FD7 /* libsfml-network.2.5.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsfml-network.2.5.1.dylib"; path = "ExternalLibraries/SFML/lib/libsfml-network.2.5.1.dylib"; sourceTree = SOURCE_ROOT; };
+		39F08AFB26AC1AC900337FD7 /* libsfml-system.2.5.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libsfml-system.2.5.1.dylib"; sourceTree = "<group>"; };
+		39F08AFD26AC1AEE00337FD7 /* libsfml-window.2.5.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libsfml-window.2.5.1.dylib"; sourceTree = "<group>"; };
+		39F08B0226AC1C3200337FD7 /* SquidwardVentureDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SquidwardVentureDebug.entitlements; sourceTree = "<group>"; };
+		39F08B0626AC1E9F00337FD7 /* sfml-window.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "sfml-window.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39AC39E026A900D000BC3192 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39F08AF026AC1A0F00337FD7 /* SFML.framework in Frameworks */,
+				39F08AF626AC1AA500337FD7 /* libsfml-audio.2.5.1.dylib in Frameworks */,
+				39F08AFE26AC1AEE00337FD7 /* libsfml-window.2.5.1.dylib in Frameworks */,
+				39F08AF126AC1A0F00337FD7 /* sfml-audio.framework in Frameworks */,
+				39F08AEE26AC1A0F00337FD7 /* sfml-system.framework in Frameworks */,
+				39F08AF226AC1A0F00337FD7 /* sfml-network.framework in Frameworks */,
+				39F08AFA26AC1ABC00337FD7 /* libsfml-network.2.5.1.dylib in Frameworks */,
+				39F08AFC26AC1AC900337FD7 /* libsfml-system.2.5.1.dylib in Frameworks */,
+				39F08AEF26AC1A0F00337FD7 /* sfml-graphics.framework in Frameworks */,
+				39F08B0726AC1EA000337FD7 /* sfml-window.framework in Frameworks */,
+				39F08AF826AC1AB200337FD7 /* libsfml-graphics.2.5.1.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3989D77126ABF75B007F6D25 /* SourceFiles */ = {
+			isa = PBXGroup;
+			children = (
+				39B418BB26AC0C1200A7D22D /* BoatingSchool.cpp */,
+				39B418B826AC0C1200A7D22D /* Game.cpp */,
+				39B418B426AC0C1200A7D22D /* GameMap.cpp */,
+				39B418B926AC0C1200A7D22D /* KrustyKrab.cpp */,
+				39B418B626AC0C1200A7D22D /* main.cpp */,
+				39B418B226AC0C1200A7D22D /* MainMenu.cpp */,
+				39B418AF26AC0C1200A7D22D /* OptionsScrene.cpp */,
+				39B418B126AC0C1200A7D22D /* Player.cpp */,
+				39B418B026AC0C1200A7D22D /* SpongebobHouse.cpp */,
+				39B418B526AC0C1200A7D22D /* SpriteMovements.cpp */,
+				39B418BA26AC0C1200A7D22D /* SquidwardHome.cpp */,
+				39B418B326AC0C1200A7D22D /* TentacleAcres.cpp */,
+				39B418B726AC0C1200A7D22D /* Worlds.cpp */,
+				3919895F26BC841F002CCD81 /* Styles.cpp */,
+				3919896D26BC932F002CCD81 /* Intro_to_Krusty_Krab.cpp */,
+			);
+			path = SourceFiles;
+			sourceTree = "<group>";
+		};
+		3989D78D26ABF770007F6D25 /* HeaderFiles */ = {
+			isa = PBXGroup;
+			children = (
+				39B418CF26AC0C2E00A7D22D /* BoatingSchool.hpp */,
+				39B418D326AC0C2E00A7D22D /* Game.hpp */,
+				39B418D026AC0C2E00A7D22D /* GameMap.hpp */,
+				39B418D526AC0C2E00A7D22D /* KrustyKrab.hpp */,
+				39B418CE26AC0C2E00A7D22D /* MainMenu.hpp */,
+				39B418D626AC0C2E00A7D22D /* OptionsScrene.hpp */,
+				39B418D126AC0C2E00A7D22D /* Player.hpp */,
+				39B418D226AC0C2E00A7D22D /* SpongebobHouse.hpp */,
+				39B418CD26AC0C2E00A7D22D /* SpriteMovements.hpp */,
+				39B418CB26AC0C2E00A7D22D /* SquidwardHome.hpp */,
+				39B418D426AC0C2E00A7D22D /* SquidwardMovements.h */,
+				39B418CA26AC0C2E00A7D22D /* TentacleAcres.hpp */,
+				3919896026BC841F002CCD81 /* Styles.hpp */,
+				39B418CC26AC0C2E00A7D22D /* Worlds.hpp */,
+				3919896E26BC932F002CCD81 /* Intro_to_Krusty_Krab.hpp */,
+			);
+			path = HeaderFiles;
+			sourceTree = "<group>";
+		};
+		3989D79D26ABF795007F6D25 /* ResourceFiles */ = {
+			isa = PBXGroup;
+			children = (
+				3989D7AE26ABF7D5007F6D25 /* Images */,
+				3989D7A626ABF7C1007F6D25 /* Fonts */,
+				3989D79E26ABF7AE007F6D25 /* Audio */,
+			);
+			path = ResourceFiles;
+			sourceTree = "<group>";
+		};
+		3989D79E26ABF7AE007F6D25 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				3989D79F26ABF7B7007F6D25 /* game_intro.wav */,
+				3989D7A026ABF7B7007F6D25 /* game_map_music.wav */,
+				3989D7A126ABF7B7007F6D25 /* krusty_krab_music.wav */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		3989D7A626ABF7C1007F6D25 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3989D7A926ABF7CD007F6D25 /* Arial.ttf */,
+				3989D7A726ABF7CD007F6D25 /* Impact.ttf */,
+				3989D7A826ABF7CD007F6D25 /* some-time-later.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		3989D7AE26ABF7D5007F6D25 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				39B5E70D26F7BEEB002E9B5F /* IngredientStacks */,
+				3998684C26DACDD500364100 /* Ingredients */,
+				3989D7B326ABF7FF007F6D25 /* 304201517179211.png */,
+				3989D7B126ABF7FF007F6D25 /* GameMap.png */,
+				3989D7B526ABF7FF007F6D25 /* introSquidward.png */,
+				3989D7B426ABF7FF007F6D25 /* KrabbyPattyGame.png */,
+				3989D7B626ABF7FF007F6D25 /* squidGameMap.png */,
+				3989D7B726ABF7FF007F6D25 /* squidwardSprites.png */,
+				3919896526BC9179002CCD81 /* unfazedSquidward.png */,
+				3919897326BCA30D002CCD81 /* krabsOffice.png */,
+				39BF4CDA26BDCC3A00C55E10 /* krustyKrab_Krabs.png */,
+				39BF4CDD26BDD0C400C55E10 /* 1200MrKrabs.png */,
+				39AE0FCE26BDE3C900FE41C0 /* KrustyKrabTextBox.png */,
+				3929B7CE26C3C94700A80C7E /* SquidwardSpriteKrustyKrab.png */,
+				39B5E72A26F7D0B8002E9B5F /* KrabbyPattyBG.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		3998684C26DACDD500364100 /* Ingredients */ = {
+			isa = PBXGroup;
+			children = (
+				397E1EBB26F83B9400D03628 /* bun.png */,
+				397E1EBE26F83B9900D03628 /* bottomBun.png */,
+				397E1EC126F83BA000D03628 /* perfectPatty.png */,
+				397E1EC426F83BA400D03628 /* burntPatty.png */,
+				397E1EC726F83BAA00D03628 /* lettuce.png */,
+				397E1ECA26F83BB000D03628 /* cheese.png */,
+				397E1ECD26F83BB700D03628 /* pickles.png */,
+				397E1ED026F83BBE00D03628 /* patty.png */,
+				397E1ED326F83BC600D03628 /* ketchup.png */,
+				397E1ED626F83BCD00D03628 /* mustard.png */,
+				397E1ED926F83BD200D03628 /* mayo.png */,
+			);
+			path = Ingredients;
+			sourceTree = "<group>";
+		};
+		39AC39DA26A900D000BC3192 = {
+			isa = PBXGroup;
+			children = (
+				39F08AE726AC19C500337FD7 /* Frameworks */,
+				39AC39E626A900D000BC3192 /* SquidwardVenture */,
+				39AC39E526A900D000BC3192 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39AC39E526A900D000BC3192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39AC39E426A900D000BC3192 /* SquidwardVenture.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39AC39E626A900D000BC3192 /* SquidwardVenture */ = {
+			isa = PBXGroup;
+			children = (
+				39F08B0226AC1C3200337FD7 /* SquidwardVentureDebug.entitlements */,
+				39AC3A0226A9037200BC3192 /* SquidwardVenture-Info.plist */,
+				3989D78D26ABF770007F6D25 /* HeaderFiles */,
+				3989D77126ABF75B007F6D25 /* SourceFiles */,
+				3989D79D26ABF795007F6D25 /* ResourceFiles */,
+			);
+			path = SquidwardVenture;
+			sourceTree = "<group>";
+		};
+		39B5E70D26F7BEEB002E9B5F /* IngredientStacks */ = {
+			isa = PBXGroup;
+			children = (
+				397E1EAC26F83B6B00D03628 /* stackofBotBun.png */,
+				397E1EAF26F83B7100D03628 /* stackofBuns.png */,
+				397E1EB226F83B7700D03628 /* stackofCheese.png */,
+				397E1EB526F83B7B00D03628 /* stackofLettuce.png */,
+				397E1EB826F83B8100D03628 /* stackofPickles.png */,
+				397E1EDD26F83CA800D03628 /* stackofPatties.png */,
+			);
+			path = IngredientStacks;
+			sourceTree = "<group>";
+		};
+		39F08AE726AC19C500337FD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39F08AF426AC1A1700337FD7 /* Frameworks */,
+				39F08AEB26AC1A0F00337FD7 /* sfml-audio.framework */,
+				39F08AE926AC1A0F00337FD7 /* sfml-graphics.framework */,
+				39F08AEC26AC1A0F00337FD7 /* sfml-network.framework */,
+				39F08AE826AC1A0F00337FD7 /* sfml-system.framework */,
+				39F08B0626AC1E9F00337FD7 /* sfml-window.framework */,
+				39F08AEA26AC1A0F00337FD7 /* SFML.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		39F08AF426AC1A1700337FD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39F08AF526AC1AA500337FD7 /* libsfml-audio.2.5.1.dylib */,
+				39F08AF726AC1AB200337FD7 /* libsfml-graphics.2.5.1.dylib */,
+				39F08AF926AC1ABC00337FD7 /* libsfml-network.2.5.1.dylib */,
+				39F08AFB26AC1AC900337FD7 /* libsfml-system.2.5.1.dylib */,
+				39F08AFD26AC1AEE00337FD7 /* libsfml-window.2.5.1.dylib */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39AC39E326A900D000BC3192 /* SquidwardVenture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39AC39F926A900D000BC3192 /* Build configuration list for PBXNativeTarget "SquidwardVenture" */;
+			buildPhases = (
+				39AC39DF26A900D000BC3192 /* Sources */,
+				39AC39E026A900D000BC3192 /* Frameworks */,
+				39AC39E126A900D000BC3192 /* Resources */,
+				39AC39E226A900D000BC3192 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SquidwardVenture;
+			productName = SquidwardVenture;
+			productReference = 39AC39E426A900D000BC3192 /* SquidwardVenture.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39AC39DB26A900D000BC3192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1230;
+				ORGANIZATIONNAME = PettyStuff;
+				TargetAttributes = {
+					39AC39E326A900D000BC3192 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 39AC39DE26A900D000BC3192 /* Build configuration list for PBXProject "SquidwardVenture" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39AC39DA26A900D000BC3192;
+			productRefGroup = 39AC39E526A900D000BC3192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39AC39E326A900D000BC3192 /* SquidwardVenture */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39AC39E126A900D000BC3192 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				397E1EC526F83BA400D03628 /* burntPatty.png in Resources */,
+				39BF4CDE26BDD0C400C55E10 /* 1200MrKrabs.png in Resources */,
+				397E1EDE26F83CA800D03628 /* stackofPatties.png in Resources */,
+				397E1ED126F83BBE00D03628 /* patty.png in Resources */,
+				3989D7B926ABF7FF007F6D25 /* GameMap.png in Resources */,
+				3919897426BCA30D002CCD81 /* krabsOffice.png in Resources */,
+				397E1ED726F83BCD00D03628 /* mustard.png in Resources */,
+				397E1EBF26F83B9900D03628 /* bottomBun.png in Resources */,
+				39B5E72B26F7D0B8002E9B5F /* KrabbyPattyBG.png in Resources */,
+				397E1EB926F83B8100D03628 /* stackofPickles.png in Resources */,
+				3989D7BC26ABF7FF007F6D25 /* KrabbyPattyGame.png in Resources */,
+				39AE0FCF26BDE3C900FE41C0 /* KrustyKrabTextBox.png in Resources */,
+				397E1ECE26F83BB700D03628 /* pickles.png in Resources */,
+				3989D7AA26ABF7CD007F6D25 /* Impact.ttf in Resources */,
+				3989D7AB26ABF7CD007F6D25 /* some-time-later.ttf in Resources */,
+				3989D7BF26ABF7FF007F6D25 /* squidwardSprites.png in Resources */,
+				3989D7A326ABF7B7007F6D25 /* game_map_music.wav in Resources */,
+				3989D7A426ABF7B7007F6D25 /* krusty_krab_music.wav in Resources */,
+				397E1ECB26F83BB000D03628 /* cheese.png in Resources */,
+				397E1EB026F83B7100D03628 /* stackofBuns.png in Resources */,
+				3989D7BD26ABF7FF007F6D25 /* introSquidward.png in Resources */,
+				397E1EC826F83BAA00D03628 /* lettuce.png in Resources */,
+				3919896626BC917A002CCD81 /* unfazedSquidward.png in Resources */,
+				3929B7CF26C3C94700A80C7E /* SquidwardSpriteKrustyKrab.png in Resources */,
+				3989D7A226ABF7B7007F6D25 /* game_intro.wav in Resources */,
+				397E1EBC26F83B9400D03628 /* bun.png in Resources */,
+				397E1ED426F83BC600D03628 /* ketchup.png in Resources */,
+				397E1EAD26F83B6B00D03628 /* stackofBotBun.png in Resources */,
+				39BF4CDB26BDCC3A00C55E10 /* krustyKrab_Krabs.png in Resources */,
+				397E1EB326F83B7700D03628 /* stackofCheese.png in Resources */,
+				397E1EDA26F83BD200D03628 /* mayo.png in Resources */,
+				397E1EC226F83BA000D03628 /* perfectPatty.png in Resources */,
+				3989D7AC26ABF7CD007F6D25 /* Arial.ttf in Resources */,
+				3989D7BE26ABF7FF007F6D25 /* squidGameMap.png in Resources */,
+				39AC3A0326A9037200BC3192 /* SquidwardVenture-Info.plist in Resources */,
+				397E1EB626F83B7B00D03628 /* stackofLettuce.png in Resources */,
+				3989D7BB26ABF7FF007F6D25 /* 304201517179211.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39AC39E226A900D000BC3192 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "# This shell script simply copies required SFML dylibs/frameworks into the application bundle frameworks folder.\n# If you're using static libraries (which is not recommended) you should remove this script from your project.\n\n# SETTINGS\nSFML_DEPENDENCIES_INSTALL_PREFIX=\"/Users/SFML/Desktop/packaging/tmp/install/Library/Frameworks\"\nCMAKE_INSTALL_FRAMEWORK_PREFIX=\"/Users/SFML/Desktop/packaging/tmp/install/Library/Frameworks\"\nCMAKE_INSTALL_LIB_PREFIX=\"/Users/SFML/Desktop/packaging/tmp/install/Library/Frameworks/lib\"\nFRAMEWORKS_FULL_PATH=\"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/\"\n\n# Are we building a project that uses frameworks or dylibs?\ncase \"$SFML_BINARY_TYPE\" in\n    DYLIBS)\n        frameworks=\"false\"\n        ;;\n    *)\n        frameworks=\"true\"\n        ;;\nesac\n\n# Echoes to stderr\nerror () # $* message to display\n{\n    echo $* 1>&2\n    exit 2\n}\n\nassert () # $1 is a boolean, $2...N is an error message\n{\n    if [ $# -lt 2 ]\n    then\n        error \"Internal error in assert: not enough args\"\n    fi\n\n    if [ $1 -ne 0 ]\n    then\n        shift\n        error \"$*\"\n    fi\n}\n\nforce_remove () # $@ is some paths\n{\n    test $# -ge 1\n    assert $? \"force_remove() requires at least one parameter\"\n    rm -fr $@\n    assert $? \"couldn't remove $@\"\n}\n\ncopy () # $1 is a source, $2 is a destination\n{\n    test $# -eq 2\n    assert $? \"copy() requires two parameters\"\n    ditto \"$1\" \"$2\"\n    assert $? \"couldn't copy $1 to $2\"\n}\n\nrequire () # $1 is a SFML module like 'system' or 'audio'\n{\n    dest=\"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/\"\n\n    if [ -z \"$1\" ]\n    then\n        error \"require() requires one parameter!\"\n    else\n        # clean potentially old stuff\n        force_remove \"$dest/libsfml-$1\"*\n        force_remove \"$dest/sfml-$1.framework\"\n\n        # copy SFML libraries\n        if [ \"$frameworks\" = \"true\" ]\n        then\n            source=\"$CMAKE_INSTALL_FRAMEWORK_PREFIX/sfml-$1.framework\"\n            target=\"sfml-$1.framework\"\n        elif [ \"$SFML_LINK_DYLIBS_SUFFIX\" = \"-d\" ]\n        then\n            source=\"$CMAKE_INSTALL_LIB_PREFIX/libsfml-$1-d.dylib\"\n            target=\"`readlink $source`\"\n        else\n            source=\"$CMAKE_INSTALL_LIB_PREFIX/libsfml-$1.dylib\"\n            target=\"`readlink $source`\"\n        fi\n\n        copy \"$source\" \"$dest/$target\"\n\n        # copy extra dependencies\n        if [ \"$1\" = \"audio\" ]\n        then\n            # copy \"FLAC\" \"ogg\" \"vorbis\" \"vorbisenc\" \"vorbisfile\" \"OpenAL\" frameworks too\n            for f in \"FLAC\" \"ogg\" \"vorbis\" \"vorbisenc\" \"vorbisfile\" \"OpenAL\"\n            do\n                copy \"$SFML_DEPENDENCIES_INSTALL_PREFIX/$f.framework\" \"$dest/$f.framework\"\n            done\n        elif [ \"$1\" = \"graphics\" ]\n        then\n            copy \"$SFML_DEPENDENCIES_INSTALL_PREFIX/freetype.framework\" \"$dest/freetype.framework\"\n        fi\n    fi\n}\n\nif [ -n \"$SFML_SYSTEM\" ]\nthen\n    require \"system\"\nfi\n\nif [ -n \"$SFML_AUDIO\" ]\nthen\n    require \"audio\"\nfi\n\nif [ -n \"$SFML_NETWORK\" ]\nthen\n    require \"network\"\nfi\n\nif [ -n \"$SFML_WINDOW\" ]\nthen\n    require \"window\"\nfi\n\nif [ -n \"$SFML_GRAPHICS\" ]\nthen\n    require \"graphics\"\nfi\n\n                \n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39AC39DF26A900D000BC3192 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39B418C026AC0C1200A7D22D /* TentacleAcres.cpp in Sources */,
+				39B418BD26AC0C1200A7D22D /* SpongebobHouse.cpp in Sources */,
+				39B418BC26AC0C1200A7D22D /* OptionsScrene.cpp in Sources */,
+				3919896126BC841F002CCD81 /* Styles.cpp in Sources */,
+				39B418BE26AC0C1200A7D22D /* Player.cpp in Sources */,
+				39B418C626AC0C1200A7D22D /* KrustyKrab.cpp in Sources */,
+				3919896F26BC932F002CCD81 /* Intro_to_Krusty_Krab.cpp in Sources */,
+				39B418C226AC0C1200A7D22D /* SpriteMovements.cpp in Sources */,
+				39B418C826AC0C1200A7D22D /* BoatingSchool.cpp in Sources */,
+				39B418C126AC0C1200A7D22D /* GameMap.cpp in Sources */,
+				39B418C726AC0C1200A7D22D /* SquidwardHome.cpp in Sources */,
+				39B418C426AC0C1200A7D22D /* Worlds.cpp in Sources */,
+				39B418C326AC0C1200A7D22D /* main.cpp in Sources */,
+				39B418BF26AC0C1200A7D22D /* MainMenu.cpp in Sources */,
+				39B418C526AC0C1200A7D22D /* Game.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		39AC39F726A900D000BC3192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Debug;
+		};
+		39AC39F826A900D000BC3192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Release;
+		};
+		39AC39FA26A900D000BC3192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = SquidwardVenture/SquidwardVentureDebug.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AX9X8TR9H5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = "SquidwardVenture/SquidwardVenture-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ExternalLibraries/SFML/lib",
+					"$(PROJECT_DIR)/Frameworks/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		39AC39FB26A900D000BC3192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AX9X8TR9H5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = "SquidwardVenture/SquidwardVenture-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ExternalLibraries/SFML/lib",
+					"$(PROJECT_DIR)/Frameworks/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39AC39DE26A900D000BC3192 /* Build configuration list for PBXProject "SquidwardVenture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39AC39F726A900D000BC3192 /* Debug */,
+				39AC39F826A900D000BC3192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39AC39F926A900D000BC3192 /* Build configuration list for PBXNativeTarget "SquidwardVenture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39AC39FA26A900D000BC3192 /* Debug */,
+				39AC39FB26A900D000BC3192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39AC39DB26A900D000BC3192 /* Project object */;
+}
