@@ -369,7 +369,7 @@
 				39AC39DF26A900D000BC3192 /* Sources */,
 				39AC39E026A900D000BC3192 /* Frameworks */,
 				39AC39E126A900D000BC3192 /* Resources */,
-				39AC39E226A900D000BC3192 /* ShellScript */,
+				39AC39E226A900D000BC3192 /* Run Script */,
 			);
 			buildRules = (
 			);
@@ -460,7 +460,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		39AC39E226A900D000BC3192 /* ShellScript */ = {
+		39AC39E226A900D000BC3192 /* Run Script */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 8;
 			files = (
@@ -469,6 +469,7 @@
 			);
 			inputPaths = (
 			);
+			name = "Run Script";
 			outputFileListPaths = (
 			);
 			outputPaths = (
@@ -511,6 +512,10 @@
 				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
 				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
 				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_ENTITLEMENTS = /Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/SquidwardVentureDebug.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				DEVELOPMENT_TEAM = AX9X8TR9H5;
+				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					/Library/Frameworks/,
 					"$(inherited)",
@@ -555,6 +560,10 @@
 				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
 				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
 				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_ENTITLEMENTS = /Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/SquidwardVentureDebug.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				DEVELOPMENT_TEAM = AX9X8TR9H5;
+				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					/Library/Frameworks/,
 					"$(inherited)",
@@ -597,7 +606,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = SquidwardVenture/SquidwardVentureDebug.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AX9X8TR9H5;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -605,6 +615,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks",
 				);
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/ExternalLibraries/SFML/include";
 				INFOPLIST_FILE = "SquidwardVenture/SquidwardVenture-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -619,7 +630,8 @@
 		39AC39FB26A900D000BC3192 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AX9X8TR9H5;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -627,6 +639,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks",
 				);
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/ExternalLibraries/SFML/include";
 				INFOPLIST_FILE = "SquidwardVenture/SquidwardVenture-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = (
