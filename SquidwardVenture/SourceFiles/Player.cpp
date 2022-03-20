@@ -1,4 +1,4 @@
-#include "Player.hpp"
+#include "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Player.hpp"
 
 Player::Player(){}
 Player::~Player(){}

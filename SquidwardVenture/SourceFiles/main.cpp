@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "Game.hpp"
+#include "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Game.hpp"
 
 
 int main()

@@ -1,4 +1,4 @@
-#include "Game.hpp"
+#include "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Game.hpp"
 
 bool buttonClicked(sf::RectangleShape r, sf::Mouse m, sf::RenderWindow &w)
 {
@@ -198,7 +198,31 @@ void Game::pollEvents()
                     } else if (spriteClicked(krustyKrab.ingredientButtons[0], m, *window))
                     {
                         krustyKrab.drawPattyClicks++;
+                        switch (krustyKrab.drawPattyClicks)
+                        {
+                        case 1:
+                            krustyKrab.secondsAfterRawPatty[0] = krustyKrab.num_seconds;
+                            std::cout << krustyKrab.secondsAfterRawPatty[0] << "\n";
+                            break;
+                        case 2:
+                            krustyKrab.secondsAfterRawPatty[1] = krustyKrab.num_seconds;
+                            std::cout << krustyKrab.secondsAfterRawPatty[1] << "\n";
+                            break;
+                        case 3:
+                            krustyKrab.secondsAfterRawPatty[2] = krustyKrab.num_seconds;
+                            break;
+                        case 4:
+                            krustyKrab.secondsAfterRawPatty[3] = krustyKrab.num_seconds;
+                            break;
+                        default:
+                            break;
+                        }
+                    } else if (spriteClicked(krustyKrab.krabbyPatties[0], m, *window))
+                    {
+                        krustyKrab.movePatty(krustyKrab.krabbyPatties[0]);
                     }
+
+
                     
                     
                 }

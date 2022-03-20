@@ -1,4 +1,4 @@
-#include "Intro_to_Krusty_Krab.hpp"
+#include "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Intro_to_Krusty_Krab.hpp"
 
 void Intro_to_Krusty_Krab::loadTextures(sf::RenderWindow &window)
 {

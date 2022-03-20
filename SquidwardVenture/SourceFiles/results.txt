@@ -1,0 +1,1073 @@
+g++ -c "Fonts.cpp" -o Fonts.o
+g++ -c "Game.cpp" -o Game.o
+In file included from Game.cpp:1:
+In file included from /Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Game.hpp:6:
+In file included from /Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/MainMenu.hpp:13:
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:20:26: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string flowerImgPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/304201517179211.png";
+                         ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:22:27: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string gameMapImgPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/GameMap.png";
+                          ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:24:36: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string krustyKrab_KrabsImgPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/1200MrKrabs.png";
+                                   ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:26:36: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string krustyKrab_SquidImgPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/introSquidward.png";
+                                   ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:28:31: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string krabbyPattyImgPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/KrabbyPattyBG.png";
+                              ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:30:31: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string krabsOfficeImgPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/krabsOffice.png";
+                              ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:32:29: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string squidGameMapPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/squidGameMap.png";
+                            ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:34:31: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string mainMenu_SquidPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/squidwardSprites.png";
+                              ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:36:37: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string unfazedSquidward_ImgPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/unfazedSquidward.png";
+                                    ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:38:38: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string krustyKrabTextBox_ImgPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/KrustyKrabTextBox.png";
+                                     ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:40:40: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string squidward_KrustyKrabImgPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/SquidwardSpriteKrustyKrab.png";
+                                       ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:44:23: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string arial_Font = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Fonts/Arial.ttf";
+                      ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:46:24: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string impact_Font = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Fonts/Impact.ttf";
+                       ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:48:33: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string some_time_later_Font = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Fonts/some-time-later.ttf";
+                                ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:53:22: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string bottomBun = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/bottomBun.png";
+                     ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:55:19: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string topBun = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/bun.png";
+                  ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:57:23: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string burntPatty = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/burntPatty.png";
+                      ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:59:21: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string rawPatty = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/patty.png";
+                    ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:61:25: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string perfectPatty = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/perfectPatty.png";
+                        ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:63:19: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string cheese = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/cheese.png";
+                  ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:65:20: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string lettuce = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/lettuce.png";
+                   ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:67:20: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string pickles = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/pickles.png";
+                   ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:69:20: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string ketchup = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/ketchup.png";
+                   ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:71:20: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string mustard = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/mustard.png";
+                   ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:73:17: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string mayo = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/mayo.png";
+                ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:75:24: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string stackofBuns = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/IngredientStacks/stackofBuns.png";
+                       ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:77:27: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string stackofPatties = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/IngredientStacks/stackofPatties.png";
+                          ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:79:27: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string stackofPickles = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/IngredientStacks/stackofPickles.png";
+                          ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:81:30: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string stackofBottomBuns = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/IngredientStacks/stackofBotBun.png";
+                             ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:83:27: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string stackofLettuce = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/IngredientStacks/stackofLettuce.png";
+                          ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:85:26: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string stackofCheese = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/IngredientStacks/stackofCheese.png";
+                         ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:89:27: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string mainMenu_audio = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Audio/game_intro.wav";
+                          ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:91:26: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string gameMap_audio = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Audio/game_map_music.wav";
+                         ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:93:29: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string krustyKrab_audio = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Audio/krusty_krab_music.wav";
+                            ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:97:26: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    sf::Color creamColor = sf::Color(255, 252, 235);
+                         ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:98:23: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    sf::Color sb_Blue = sf::Color(4, 87, 160);
+                      ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:99:25: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    sf::Color sb_Yellow = sf::Color(255, 245, 108);
+                        ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:100:26: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    sf::Color lightBrown = sf::Color(205,174,95);
+                         ^
+In file included from Game.cpp:1:
+In file included from /Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Game.hpp:6:
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/MainMenu.hpp:27:24: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    float initial_xPos = 0.f;
+                       ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/MainMenu.hpp:28:24: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    float initial_yPos = 450;
+                       ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/MainMenu.hpp:30:21: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    bool onMainMenu = true;
+                    ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/MainMenu.hpp:31:23: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    bool stillWalking = true;
+                      ^
+In file included from Game.cpp:1:
+In file included from /Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Game.hpp:7:
+In file included from /Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/GameMap.hpp:11:
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Player.hpp:20:19: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    int livesLeft = 3;
+                  ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Player.hpp:21:20: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    int levelsLeft = 5;
+                   ^
+In file included from Game.cpp:1:
+In file included from /Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Game.hpp:7:
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/GameMap.hpp:30:20: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    bool onGameMap = false;
+                   ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/GameMap.hpp:31:22: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    bool stillMoving = false;
+                     ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/GameMap.hpp:32:13: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    bool up = false;
+            ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/GameMap.hpp:33:15: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    bool down = false;
+              ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/GameMap.hpp:34:15: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    bool left = false;
+              ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/GameMap.hpp:35:16: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    bool right = false;
+               ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/GameMap.hpp:56:27: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    int selectedItemIndex = 0;
+                          ^
+In file included from Game.cpp:1:
+In file included from /Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Game.hpp:8:
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/KrustyKrab.hpp:28:23: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    bool onKrustyKrab = false;
+                      ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/KrustyKrab.hpp:29:27: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    bool onTutorialWindow = true;
+                          ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/KrustyKrab.hpp:45:19: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    int customers = 7;
+                  ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/KrustyKrab.hpp:46:21: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    int num_seconds = 55;
+                    ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/KrustyKrab.hpp:47:25: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    int drawPattyClicks = 0;
+                        ^
+In file included from Game.cpp:1:
+In file included from /Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Game.hpp:9:
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Intro_to_Krusty_Krab.hpp:21:24: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    bool onIntroScreen = false;
+                       ^
+Game.cpp:119:29: warning: 100 enumeration values not handled in switch: 'Unknown', 'A', 'B'... [-Wswitch]
+                    switch (ev.key.code)
+                            ^
+Game.cpp:119:29: note: add missing switch cases
+                    switch (ev.key.code)
+                            ^
+Game.cpp:151:28: warning: 98 enumeration values not handled in switch: 'Unknown', 'A', 'B'... [-Wswitch]
+                    switch(ev.key.code)
+                           ^
+Game.cpp:151:28: note: add missing switch cases
+                    switch(ev.key.code)
+                           ^
+Game.cpp:104:16: warning: 20 enumeration values not handled in switch: 'Resized', 'LostFocus', 'GainedFocus'... [-Wswitch]
+        switch(this->ev.type)
+               ^
+Game.cpp:104:16: note: add missing switch cases
+        switch(this->ev.type)
+               ^
+60 warnings generated.
+make: Circular GameMap.o <- GameMap.o dependency dropped.
+g++ -c "GameMap.cpp" -o GameMap.o
+In file included from GameMap.cpp:1:
+In file included from /Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/GameMap.hpp:11:
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Player.hpp:20:19: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    int livesLeft = 3;
+                  ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Player.hpp:21:20: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    int levelsLeft = 5;
+                   ^
+In file included from GameMap.cpp:1:
+In file included from /Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/GameMap.hpp:12:
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:20:26: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string flowerImgPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/304201517179211.png";
+                         ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:22:27: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string gameMapImgPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/GameMap.png";
+                          ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:24:36: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string krustyKrab_KrabsImgPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/1200MrKrabs.png";
+                                   ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:26:36: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string krustyKrab_SquidImgPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/introSquidward.png";
+                                   ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:28:31: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string krabbyPattyImgPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/KrabbyPattyBG.png";
+                              ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:30:31: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string krabsOfficeImgPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/krabsOffice.png";
+                              ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:32:29: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string squidGameMapPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/squidGameMap.png";
+                            ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:34:31: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string mainMenu_SquidPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/squidwardSprites.png";
+                              ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:36:37: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string unfazedSquidward_ImgPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/unfazedSquidward.png";
+                                    ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:38:38: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string krustyKrabTextBox_ImgPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/KrustyKrabTextBox.png";
+                                     ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:40:40: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string squidward_KrustyKrabImgPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/SquidwardSpriteKrustyKrab.png";
+                                       ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:44:23: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string arial_Font = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Fonts/Arial.ttf";
+                      ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:46:24: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string impact_Font = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Fonts/Impact.ttf";
+                       ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:48:33: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string some_time_later_Font = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Fonts/some-time-later.ttf";
+                                ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:53:22: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string bottomBun = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/bottomBun.png";
+                     ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:55:19: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string topBun = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/bun.png";
+                  ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:57:23: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string burntPatty = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/burntPatty.png";
+                      ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:59:21: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string rawPatty = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/patty.png";
+                    ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:61:25: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string perfectPatty = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/perfectPatty.png";
+                        ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:63:19: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string cheese = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/cheese.png";
+                  ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:65:20: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string lettuce = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/lettuce.png";
+                   ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:67:20: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string pickles = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/pickles.png";
+                   ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:69:20: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string ketchup = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/ketchup.png";
+                   ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:71:20: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string mustard = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/mustard.png";
+                   ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:73:17: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string mayo = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/mayo.png";
+                ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:75:24: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string stackofBuns = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/IngredientStacks/stackofBuns.png";
+                       ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:77:27: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string stackofPatties = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/IngredientStacks/stackofPatties.png";
+                          ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:79:27: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string stackofPickles = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/IngredientStacks/stackofPickles.png";
+                          ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:81:30: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string stackofBottomBuns = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/IngredientStacks/stackofBotBun.png";
+                             ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:83:27: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string stackofLettuce = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/IngredientStacks/stackofLettuce.png";
+                          ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:85:26: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string stackofCheese = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/IngredientStacks/stackofCheese.png";
+                         ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:89:27: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string mainMenu_audio = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Audio/game_intro.wav";
+                          ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:91:26: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string gameMap_audio = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Audio/game_map_music.wav";
+                         ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:93:29: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string krustyKrab_audio = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Audio/krusty_krab_music.wav";
+                            ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:97:26: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    sf::Color creamColor = sf::Color(255, 252, 235);
+                         ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:98:23: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    sf::Color sb_Blue = sf::Color(4, 87, 160);
+                      ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:99:25: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    sf::Color sb_Yellow = sf::Color(255, 245, 108);
+                        ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:100:26: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    sf::Color lightBrown = sf::Color(205,174,95);
+                         ^
+In file included from GameMap.cpp:1:
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/GameMap.hpp:30:20: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    bool onGameMap = false;
+                   ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/GameMap.hpp:31:22: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    bool stillMoving = false;
+                     ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/GameMap.hpp:32:13: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    bool up = false;
+            ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/GameMap.hpp:33:15: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    bool down = false;
+              ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/GameMap.hpp:34:15: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    bool left = false;
+              ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/GameMap.hpp:35:16: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    bool right = false;
+               ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/GameMap.hpp:56:27: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    int selectedItemIndex = 0;
+                          ^
+47 warnings generated.
+make: Circular Intro_to_Krusty_Krab.o <- Intro_to_Krusty_Krab.o dependency dropped.
+g++ -c "Intro_to_Krusty_Krab.cpp" -o Intro_to_Krusty_Krab.o
+In file included from Intro_to_Krusty_Krab.cpp:1:
+In file included from /Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Intro_to_Krusty_Krab.hpp:14:
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:20:26: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string flowerImgPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/304201517179211.png";
+                         ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:22:27: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string gameMapImgPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/GameMap.png";
+                          ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:24:36: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string krustyKrab_KrabsImgPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/1200MrKrabs.png";
+                                   ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:26:36: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string krustyKrab_SquidImgPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/introSquidward.png";
+                                   ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:28:31: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string krabbyPattyImgPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/KrabbyPattyBG.png";
+                              ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:30:31: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string krabsOfficeImgPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/krabsOffice.png";
+                              ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:32:29: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string squidGameMapPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/squidGameMap.png";
+                            ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:34:31: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string mainMenu_SquidPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/squidwardSprites.png";
+                              ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:36:37: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string unfazedSquidward_ImgPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/unfazedSquidward.png";
+                                    ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:38:38: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string krustyKrabTextBox_ImgPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/KrustyKrabTextBox.png";
+                                     ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:40:40: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string squidward_KrustyKrabImgPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/SquidwardSpriteKrustyKrab.png";
+                                       ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:44:23: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string arial_Font = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Fonts/Arial.ttf";
+                      ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:46:24: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string impact_Font = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Fonts/Impact.ttf";
+                       ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:48:33: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string some_time_later_Font = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Fonts/some-time-later.ttf";
+                                ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:53:22: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string bottomBun = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/bottomBun.png";
+                     ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:55:19: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string topBun = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/bun.png";
+                  ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:57:23: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string burntPatty = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/burntPatty.png";
+                      ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:59:21: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string rawPatty = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/patty.png";
+                    ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:61:25: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string perfectPatty = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/perfectPatty.png";
+                        ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:63:19: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string cheese = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/cheese.png";
+                  ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:65:20: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string lettuce = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/lettuce.png";
+                   ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:67:20: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string pickles = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/pickles.png";
+                   ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:69:20: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string ketchup = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/ketchup.png";
+                   ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:71:20: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string mustard = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/mustard.png";
+                   ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:73:17: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string mayo = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/mayo.png";
+                ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:75:24: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string stackofBuns = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/IngredientStacks/stackofBuns.png";
+                       ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:77:27: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string stackofPatties = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/IngredientStacks/stackofPatties.png";
+                          ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:79:27: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string stackofPickles = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/IngredientStacks/stackofPickles.png";
+                          ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:81:30: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string stackofBottomBuns = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/IngredientStacks/stackofBotBun.png";
+                             ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:83:27: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string stackofLettuce = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/IngredientStacks/stackofLettuce.png";
+                          ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:85:26: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string stackofCheese = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/IngredientStacks/stackofCheese.png";
+                         ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:89:27: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string mainMenu_audio = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Audio/game_intro.wav";
+                          ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:91:26: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string gameMap_audio = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Audio/game_map_music.wav";
+                         ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:93:29: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string krustyKrab_audio = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Audio/krusty_krab_music.wav";
+                            ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:97:26: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    sf::Color creamColor = sf::Color(255, 252, 235);
+                         ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:98:23: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    sf::Color sb_Blue = sf::Color(4, 87, 160);
+                      ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:99:25: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    sf::Color sb_Yellow = sf::Color(255, 245, 108);
+                        ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:100:26: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    sf::Color lightBrown = sf::Color(205,174,95);
+                         ^
+In file included from Intro_to_Krusty_Krab.cpp:1:
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Intro_to_Krusty_Krab.hpp:21:24: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    bool onIntroScreen = false;
+                       ^
+39 warnings generated.
+make: Circular KrustyKrab.o <- KrustyKrab.o dependency dropped.
+g++ -c "KrustyKrab.cpp" -o KrustyKrab.o
+In file included from KrustyKrab.cpp:1:
+In file included from /Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/KrustyKrab.hpp:11:
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:20:26: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string flowerImgPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/304201517179211.png";
+                         ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:22:27: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string gameMapImgPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/GameMap.png";
+                          ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:24:36: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string krustyKrab_KrabsImgPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/1200MrKrabs.png";
+                                   ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:26:36: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string krustyKrab_SquidImgPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/introSquidward.png";
+                                   ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:28:31: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string krabbyPattyImgPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/KrabbyPattyBG.png";
+                              ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:30:31: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string krabsOfficeImgPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/krabsOffice.png";
+                              ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:32:29: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string squidGameMapPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/squidGameMap.png";
+                            ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:34:31: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string mainMenu_SquidPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/squidwardSprites.png";
+                              ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:36:37: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string unfazedSquidward_ImgPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/unfazedSquidward.png";
+                                    ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:38:38: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string krustyKrabTextBox_ImgPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/KrustyKrabTextBox.png";
+                                     ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:40:40: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string squidward_KrustyKrabImgPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/SquidwardSpriteKrustyKrab.png";
+                                       ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:44:23: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string arial_Font = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Fonts/Arial.ttf";
+                      ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:46:24: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string impact_Font = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Fonts/Impact.ttf";
+                       ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:48:33: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string some_time_later_Font = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Fonts/some-time-later.ttf";
+                                ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:53:22: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string bottomBun = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/bottomBun.png";
+                     ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:55:19: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string topBun = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/bun.png";
+                  ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:57:23: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string burntPatty = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/burntPatty.png";
+                      ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:59:21: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string rawPatty = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/patty.png";
+                    ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:61:25: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string perfectPatty = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/perfectPatty.png";
+                        ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:63:19: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string cheese = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/cheese.png";
+                  ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:65:20: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string lettuce = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/lettuce.png";
+                   ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:67:20: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string pickles = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/pickles.png";
+                   ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:69:20: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string ketchup = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/ketchup.png";
+                   ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:71:20: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string mustard = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/mustard.png";
+                   ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:73:17: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string mayo = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/mayo.png";
+                ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:75:24: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string stackofBuns = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/IngredientStacks/stackofBuns.png";
+                       ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:77:27: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string stackofPatties = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/IngredientStacks/stackofPatties.png";
+                          ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:79:27: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string stackofPickles = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/IngredientStacks/stackofPickles.png";
+                          ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:81:30: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string stackofBottomBuns = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/IngredientStacks/stackofBotBun.png";
+                             ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:83:27: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string stackofLettuce = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/IngredientStacks/stackofLettuce.png";
+                          ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:85:26: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string stackofCheese = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/IngredientStacks/stackofCheese.png";
+                         ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:89:27: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string mainMenu_audio = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Audio/game_intro.wav";
+                          ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:91:26: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string gameMap_audio = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Audio/game_map_music.wav";
+                         ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:93:29: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string krustyKrab_audio = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Audio/krusty_krab_music.wav";
+                            ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:97:26: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    sf::Color creamColor = sf::Color(255, 252, 235);
+                         ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:98:23: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    sf::Color sb_Blue = sf::Color(4, 87, 160);
+                      ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:99:25: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    sf::Color sb_Yellow = sf::Color(255, 245, 108);
+                        ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:100:26: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    sf::Color lightBrown = sf::Color(205,174,95);
+                         ^
+In file included from KrustyKrab.cpp:1:
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/KrustyKrab.hpp:28:23: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    bool onKrustyKrab = false;
+                      ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/KrustyKrab.hpp:29:27: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    bool onTutorialWindow = true;
+                          ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/KrustyKrab.hpp:45:19: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    int customers = 7;
+                  ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/KrustyKrab.hpp:46:21: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    int num_seconds = 55;
+                    ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/KrustyKrab.hpp:47:25: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    int drawPattyClicks = 0;
+                        ^
+43 warnings generated.
+make: Circular main.o <- main.o dependency dropped.
+g++ -c "main.cpp" -o main.o
+In file included from main.cpp:3:
+In file included from /Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Game.hpp:6:
+In file included from /Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/MainMenu.hpp:13:
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:20:26: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string flowerImgPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/304201517179211.png";
+                         ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:22:27: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string gameMapImgPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/GameMap.png";
+                          ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:24:36: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string krustyKrab_KrabsImgPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/1200MrKrabs.png";
+                                   ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:26:36: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string krustyKrab_SquidImgPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/introSquidward.png";
+                                   ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:28:31: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string krabbyPattyImgPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/KrabbyPattyBG.png";
+                              ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:30:31: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string krabsOfficeImgPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/krabsOffice.png";
+                              ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:32:29: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string squidGameMapPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/squidGameMap.png";
+                            ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:34:31: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string mainMenu_SquidPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/squidwardSprites.png";
+                              ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:36:37: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string unfazedSquidward_ImgPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/unfazedSquidward.png";
+                                    ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:38:38: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string krustyKrabTextBox_ImgPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/KrustyKrabTextBox.png";
+                                     ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:40:40: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string squidward_KrustyKrabImgPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/SquidwardSpriteKrustyKrab.png";
+                                       ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:44:23: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string arial_Font = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Fonts/Arial.ttf";
+                      ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:46:24: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string impact_Font = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Fonts/Impact.ttf";
+                       ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:48:33: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string some_time_later_Font = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Fonts/some-time-later.ttf";
+                                ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:53:22: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string bottomBun = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/bottomBun.png";
+                     ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:55:19: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string topBun = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/bun.png";
+                  ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:57:23: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string burntPatty = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/burntPatty.png";
+                      ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:59:21: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string rawPatty = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/patty.png";
+                    ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:61:25: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string perfectPatty = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/perfectPatty.png";
+                        ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:63:19: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string cheese = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/cheese.png";
+                  ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:65:20: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string lettuce = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/lettuce.png";
+                   ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:67:20: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string pickles = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/pickles.png";
+                   ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:69:20: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string ketchup = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/ketchup.png";
+                   ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:71:20: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string mustard = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/mustard.png";
+                   ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:73:17: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string mayo = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/mayo.png";
+                ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:75:24: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string stackofBuns = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/IngredientStacks/stackofBuns.png";
+                       ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:77:27: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string stackofPatties = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/IngredientStacks/stackofPatties.png";
+                          ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:79:27: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string stackofPickles = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/IngredientStacks/stackofPickles.png";
+                          ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:81:30: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string stackofBottomBuns = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/IngredientStacks/stackofBotBun.png";
+                             ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:83:27: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string stackofLettuce = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/IngredientStacks/stackofLettuce.png";
+                          ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:85:26: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string stackofCheese = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/IngredientStacks/stackofCheese.png";
+                         ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:89:27: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string mainMenu_audio = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Audio/game_intro.wav";
+                          ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:91:26: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string gameMap_audio = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Audio/game_map_music.wav";
+                         ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:93:29: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string krustyKrab_audio = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Audio/krusty_krab_music.wav";
+                            ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:97:26: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    sf::Color creamColor = sf::Color(255, 252, 235);
+                         ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:98:23: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    sf::Color sb_Blue = sf::Color(4, 87, 160);
+                      ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:99:25: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    sf::Color sb_Yellow = sf::Color(255, 245, 108);
+                        ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:100:26: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    sf::Color lightBrown = sf::Color(205,174,95);
+                         ^
+In file included from main.cpp:3:
+In file included from /Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Game.hpp:6:
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/MainMenu.hpp:27:24: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    float initial_xPos = 0.f;
+                       ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/MainMenu.hpp:28:24: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    float initial_yPos = 450;
+                       ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/MainMenu.hpp:30:21: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    bool onMainMenu = true;
+                    ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/MainMenu.hpp:31:23: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    bool stillWalking = true;
+                      ^
+In file included from main.cpp:3:
+In file included from /Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Game.hpp:7:
+In file included from /Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/GameMap.hpp:11:
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Player.hpp:20:19: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    int livesLeft = 3;
+                  ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Player.hpp:21:20: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    int levelsLeft = 5;
+                   ^
+In file included from main.cpp:3:
+In file included from /Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Game.hpp:7:
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/GameMap.hpp:30:20: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    bool onGameMap = false;
+                   ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/GameMap.hpp:31:22: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    bool stillMoving = false;
+                     ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/GameMap.hpp:32:13: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    bool up = false;
+            ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/GameMap.hpp:33:15: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    bool down = false;
+              ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/GameMap.hpp:34:15: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    bool left = false;
+              ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/GameMap.hpp:35:16: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    bool right = false;
+               ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/GameMap.hpp:56:27: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    int selectedItemIndex = 0;
+                          ^
+In file included from main.cpp:3:
+In file included from /Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Game.hpp:8:
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/KrustyKrab.hpp:28:23: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    bool onKrustyKrab = false;
+                      ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/KrustyKrab.hpp:29:27: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    bool onTutorialWindow = true;
+                          ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/KrustyKrab.hpp:45:19: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    int customers = 7;
+                  ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/KrustyKrab.hpp:46:21: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    int num_seconds = 55;
+                    ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/KrustyKrab.hpp:47:25: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    int drawPattyClicks = 0;
+                        ^
+In file included from main.cpp:3:
+In file included from /Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Game.hpp:9:
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Intro_to_Krusty_Krab.hpp:21:24: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    bool onIntroScreen = false;
+                       ^
+57 warnings generated.
+make: Circular MainMenu.o <- MainMenu.o dependency dropped.
+g++ -c "MainMenu.cpp" -o MainMenu.o
+In file included from MainMenu.cpp:1:
+In file included from /Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/MainMenu.hpp:13:
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:20:26: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string flowerImgPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/304201517179211.png";
+                         ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:22:27: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string gameMapImgPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/GameMap.png";
+                          ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:24:36: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string krustyKrab_KrabsImgPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/1200MrKrabs.png";
+                                   ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:26:36: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string krustyKrab_SquidImgPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/introSquidward.png";
+                                   ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:28:31: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string krabbyPattyImgPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/KrabbyPattyBG.png";
+                              ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:30:31: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string krabsOfficeImgPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/krabsOffice.png";
+                              ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:32:29: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string squidGameMapPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/squidGameMap.png";
+                            ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:34:31: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string mainMenu_SquidPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/squidwardSprites.png";
+                              ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:36:37: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string unfazedSquidward_ImgPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/unfazedSquidward.png";
+                                    ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:38:38: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string krustyKrabTextBox_ImgPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/KrustyKrabTextBox.png";
+                                     ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:40:40: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string squidward_KrustyKrabImgPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/SquidwardSpriteKrustyKrab.png";
+                                       ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:44:23: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string arial_Font = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Fonts/Arial.ttf";
+                      ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:46:24: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string impact_Font = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Fonts/Impact.ttf";
+                       ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:48:33: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string some_time_later_Font = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Fonts/some-time-later.ttf";
+                                ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:53:22: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string bottomBun = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/bottomBun.png";
+                     ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:55:19: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string topBun = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/bun.png";
+                  ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:57:23: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string burntPatty = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/burntPatty.png";
+                      ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:59:21: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string rawPatty = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/patty.png";
+                    ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:61:25: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string perfectPatty = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/perfectPatty.png";
+                        ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:63:19: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string cheese = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/cheese.png";
+                  ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:65:20: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string lettuce = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/lettuce.png";
+                   ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:67:20: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string pickles = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/pickles.png";
+                   ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:69:20: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string ketchup = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/ketchup.png";
+                   ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:71:20: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string mustard = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/mustard.png";
+                   ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:73:17: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string mayo = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/mayo.png";
+                ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:75:24: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string stackofBuns = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/IngredientStacks/stackofBuns.png";
+                       ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:77:27: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string stackofPatties = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/IngredientStacks/stackofPatties.png";
+                          ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:79:27: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string stackofPickles = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/IngredientStacks/stackofPickles.png";
+                          ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:81:30: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string stackofBottomBuns = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/IngredientStacks/stackofBotBun.png";
+                             ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:83:27: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string stackofLettuce = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/IngredientStacks/stackofLettuce.png";
+                          ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:85:26: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string stackofCheese = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/IngredientStacks/stackofCheese.png";
+                         ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:89:27: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string mainMenu_audio = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Audio/game_intro.wav";
+                          ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:91:26: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string gameMap_audio = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Audio/game_map_music.wav";
+                         ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:93:29: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string krustyKrab_audio = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Audio/krusty_krab_music.wav";
+                            ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:97:26: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    sf::Color creamColor = sf::Color(255, 252, 235);
+                         ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:98:23: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    sf::Color sb_Blue = sf::Color(4, 87, 160);
+                      ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:99:25: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    sf::Color sb_Yellow = sf::Color(255, 245, 108);
+                        ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:100:26: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    sf::Color lightBrown = sf::Color(205,174,95);
+                         ^
+In file included from MainMenu.cpp:1:
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/MainMenu.hpp:27:24: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    float initial_xPos = 0.f;
+                       ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/MainMenu.hpp:28:24: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    float initial_yPos = 450;
+                       ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/MainMenu.hpp:30:21: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    bool onMainMenu = true;
+                    ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/MainMenu.hpp:31:23: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    bool stillWalking = true;
+                      ^
+42 warnings generated.
+make: Circular OptionsScrene.o <- OptionsScrene.o dependency dropped.
+g++ -c "OptionsScrene.cpp" -o OptionsScrene.o 
+make: Circular Player.o <- Player.o dependency dropped.
+g++ -c "Player.cpp" -o Player.o 
+In file included from Player.cpp:1:
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Player.hpp:20:19: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    int livesLeft = 3;
+                  ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Player.hpp:21:20: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    int levelsLeft = 5;
+                   ^
+2 warnings generated.
+make: Circular SpriteMovements.o <- SpriteMovements.o dependency dropped.
+g++ -c "SpriteMovements.cpp" -o SpriteMovements.o 
+make: Circular Styles.o <- Styles.o dependency dropped.
+g++ -c "Styles.cpp" -o Styles.o 
+In file included from Styles.cpp:1:
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:20:26: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string flowerImgPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/304201517179211.png";
+                         ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:22:27: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string gameMapImgPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/GameMap.png";
+                          ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:24:36: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string krustyKrab_KrabsImgPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/1200MrKrabs.png";
+                                   ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:26:36: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string krustyKrab_SquidImgPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/introSquidward.png";
+                                   ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:28:31: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string krabbyPattyImgPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/KrabbyPattyBG.png";
+                              ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:30:31: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string krabsOfficeImgPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/krabsOffice.png";
+                              ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:32:29: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string squidGameMapPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/squidGameMap.png";
+                            ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:34:31: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string mainMenu_SquidPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/squidwardSprites.png";
+                              ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:36:37: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string unfazedSquidward_ImgPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/unfazedSquidward.png";
+                                    ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:38:38: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string krustyKrabTextBox_ImgPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/KrustyKrabTextBox.png";
+                                     ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:40:40: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string squidward_KrustyKrabImgPath = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/SquidwardSpriteKrustyKrab.png";
+                                       ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:44:23: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string arial_Font = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Fonts/Arial.ttf";
+                      ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:46:24: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string impact_Font = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Fonts/Impact.ttf";
+                       ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:48:33: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string some_time_later_Font = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Fonts/some-time-later.ttf";
+                                ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:53:22: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string bottomBun = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/bottomBun.png";
+                     ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:55:19: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string topBun = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/bun.png";
+                  ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:57:23: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string burntPatty = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/burntPatty.png";
+                      ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:59:21: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string rawPatty = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/patty.png";
+                    ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:61:25: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string perfectPatty = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/perfectPatty.png";
+                        ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:63:19: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string cheese = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/cheese.png";
+                  ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:65:20: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string lettuce = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/lettuce.png";
+                   ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:67:20: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string pickles = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/pickles.png";
+                   ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:69:20: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string ketchup = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/ketchup.png";
+                   ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:71:20: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string mustard = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/mustard.png";
+                   ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:73:17: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string mayo = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/Ingredients/mayo.png";
+                ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:75:24: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string stackofBuns = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/IngredientStacks/stackofBuns.png";
+                       ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:77:27: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string stackofPatties = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/IngredientStacks/stackofPatties.png";
+                          ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:79:27: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string stackofPickles = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/IngredientStacks/stackofPickles.png";
+                          ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:81:30: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string stackofBottomBuns = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/IngredientStacks/stackofBotBun.png";
+                             ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:83:27: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string stackofLettuce = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/IngredientStacks/stackofLettuce.png";
+                          ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:85:26: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string stackofCheese = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/IngredientStacks/stackofCheese.png";
+                         ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:89:27: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string mainMenu_audio = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Audio/game_intro.wav";
+                          ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:91:26: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string gameMap_audio = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Audio/game_map_music.wav";
+                         ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:93:29: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    string krustyKrab_audio = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Audio/krusty_krab_music.wav";
+                            ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:97:26: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    sf::Color creamColor = sf::Color(255, 252, 235);
+                         ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:98:23: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    sf::Color sb_Blue = sf::Color(4, 87, 160);
+                      ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:99:25: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    sf::Color sb_Yellow = sf::Color(255, 245, 108);
+                        ^
+/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/Styles.hpp:100:26: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+    sf::Color lightBrown = sf::Color(205,174,95);
+                         ^
+38 warnings generated.
+** Building the game **
+g++ -o thegame Fonts.o Game.o GameMap.o Intro_to_Krusty_Krab.o KrustyKrab.o main.o MainMenu.o OptionsScrene.o Player.o SpriteMovements.o Styles.o -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio -lsfml-network
+Undefined symbols for architecture x86_64:
+  "KrustyKrab::movePatty(sf::Sprite&)", referenced from:
+      Game::pollEvents() in Game.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [thegame] Error 1

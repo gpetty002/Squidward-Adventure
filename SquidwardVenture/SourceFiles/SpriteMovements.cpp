@@ -1,4 +1,4 @@
-#include "SpriteMovements.hpp"
+#include "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/SpriteMovements.hpp"
 
 
 #include <iostream>

@@ -9,9 +9,12 @@
 #include <SFML/Network.hpp>
 
 #include "Styles.hpp"
+#include <vector>
 
 #define MAX_NUM_OF_INGREDIENTS 5
 #define INGREDIENT_BUTTONS 9
+
+using std::vector;
 
 class KrustyKrab
 {
@@ -31,6 +34,8 @@ public:
     sf::Text okayString;
     sf::Text directions[4];
     sf::Text clockText;
+
+    std::vector<sf::Sprite> krabbyPatties;
     
     // Styles
     Styles styles;
@@ -45,6 +50,7 @@ public:
     // Functions
     void loadTextures(sf::RenderWindow &window);
     void displayKrustyKrab(sf::RenderWindow &window, sf::Mouse m);
+    void movePatty(sf::Sprite s);
 
     void endOfGame();
     void stopMusic() { music.stop(); }

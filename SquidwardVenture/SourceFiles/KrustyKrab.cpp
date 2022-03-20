@@ -1,4 +1,4 @@
-#include "KrustyKrab.hpp"
+#include "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/HeaderFiles/KrustyKrab.hpp"
 
 
 KrustyKrab::KrustyKrab(){}
@@ -14,7 +14,7 @@ void KrustyKrab::loadTextures(sf::RenderWindow &window)
     // Ingredients Textures
     perfectPattyTexture.loadFromFile(styles.perfectPatty);
     rawPattyTexture.loadFromFile(styles.rawPatty);
-    burntPattyTexture.loadFromFile(styles.rawPatty);
+    burntPattyTexture.loadFromFile(styles.burntPatty);
     cheeseTexture.loadFromFile(styles.cheese);
     lettuceTexture.loadFromFile(styles.lettuce);
     picklesTexture.loadFromFile(styles.pickles);
@@ -216,37 +216,45 @@ void KrustyKrab::displayKrustyKrab(sf::RenderWindow &window, sf::Mouse m)
     if (clock.getElapsedTime().asSeconds() > 1.0f)
     {
         num_seconds--;
-        if (drawPattyClicks > 0)
-        {
-            for (int i = 0; i < drawPattyClicks; i++)
-            {
-                secondsAfterRawPatty[i]++;
-            }
-        }
         clock.restart();
     }
-    
+
     if (drawPattyClicks > 0)
     {
         if (drawPattyClicks > 4)
             drawPattyClicks = 4;
         
-        
         // draw raw patty
         for (int i = 0; i < drawPattyClicks; i++)
         {
             window.draw(rawPatties[i]);
-            
-            if (secondsAfterRawPatty[i] >= 10)
-            {
-                window.draw(perfectPatties[i]);
-            } else if (secondsAfterRawPatty[i] >= 15)
-            {
-                window.draw(burntPatties[i]);
-            }
+            krabbyPatties.push_back(rawPatties[i]);
+        }
+    }
+
+    for (int j = 0; j < drawPattyClicks; j++)
+    {
+        int currentTime = num_seconds;
+        int passedTime = secondsAfterRawPatty[j] - currentTime;
+
+        // draw Burnt Patty
+        if (passedTime > 18)
+        {
+            window.draw(burntPatties[j]);
+            krabbyPatties[j] = burntPatties[j];
+        } else if (passedTime > 10)
+        {
+            // draw Perfect Patty
+            window.draw(perfectPatties[j]);
+            krabbyPatties[j] = perfectPatties[j];
         }
     }
     
+}
+
+void movePatty(sf:: Sprite s)
+{
+    s.setPosition(sf::Vector2f(300, 720));
 }
 
 void KrustyKrab::endOfGame()
