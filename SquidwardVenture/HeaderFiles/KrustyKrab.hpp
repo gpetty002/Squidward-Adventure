@@ -21,36 +21,46 @@ class KrustyKrab
 public:
     // Constructor
     KrustyKrab();
-    // Destructror
+    // Destructor
     virtual ~KrustyKrab();
     
     // Members
     bool onKrustyKrab = false;
     bool onTutorialWindow = true;
+    bool finishedGame = false;
+    bool onGrill[4] = {false, false, false, false};
+    bool movingPatty[4] = {false, false, false, false};
     sf::RectangleShape okayButton;
+    sf::RectangleShape submitButton;
     sf::Sprite ingredientButtons[INGREDIENT_BUTTONS];
     sf::Sprite tutorialWindow;
     sf::Texture textBox;
     sf::Text okayString;
+    sf::Text submitText;
     sf::Text directions[4];
     sf::Text clockText;
+    int passedTime[4] = {0,0,0,0};
 
-    std::vector<sf::Sprite> krabbyPatties;
+    sf::Sprite krabbyPatties[4];
     
     // Styles
     Styles styles;
     
     sf::Clock clock;
     sf::Music music;
+    sf::Music grillingEffect;
     int customers = 7;
     int num_seconds = 55;
     int drawPattyClicks = 0;
+    int drawCheeseClicks = 0;
+    int drawLettuceClicks = 0;
+    int drawTopBunsClicks = 0;
     int secondsAfterRawPatty[4];
     
     // Functions
     void loadTextures(sf::RenderWindow &window);
     void displayKrustyKrab(sf::RenderWindow &window, sf::Mouse m);
-    void movePatty(sf::Sprite s);
+    void movePatty(int x, sf::Sprite s[]);
 
     void endOfGame();
     void stopMusic() { music.stop(); }
@@ -93,6 +103,9 @@ private:
     sf::Sprite rawPatties[4];
     sf::Sprite perfectPatties[4];
     sf::Sprite burntPatties[4];
+    sf::Sprite cheese[4];
+    sf::Sprite lettuce[4];
+    sf::Sprite topBuns[4];
 };
 
 #endif /* KrustyKrab_hpp */

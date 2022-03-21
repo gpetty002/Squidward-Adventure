@@ -9,6 +9,7 @@
 #include "Intro_to_Krusty_Krab.hpp"
 #include "Player.hpp"
 #include "Styles.hpp"
+#include "WinningScreen.hpp"
 
 #include <SFML/Graphics.hpp>
 #include <SFML/System.hpp>
@@ -40,6 +41,7 @@ public:
     GameMap gameMap;
     Intro_to_Krusty_Krab introKrustyKrab;
     KrustyKrab krustyKrab;
+    WinningScreen winScreen;
     
     // Player Info
     Player player;

@@ -83,6 +83,8 @@ public:
     string stackofLettuce = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/IngredientStacks/stackofLettuce.png";
     
     string stackofCheese = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/IngredientStacks/stackofCheese.png";
+
+    string win_image = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Images/winningImage.png";
     
     // Audio
     
@@ -92,6 +94,11 @@ public:
     
     string krustyKrab_audio = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Audio/krusty_krab_music.wav";
     
+    string grilling_audio = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Audio/grillingSound.wav";
+
+    string cookingKrustyKrab_audio = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Audio/cookingKrustyKrab.wav";
+
+    string cocktail_audio = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Audio/cocktail_Lounge.wav";
     // Colors
     
     sf::Color creamColor = sf::Color(255, 252, 235);
