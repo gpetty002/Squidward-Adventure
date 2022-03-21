@@ -35,9 +35,12 @@ SpriteMovements.o: SpriteMovements.o
 Styles.o: Styles.o 
 	g++ -c "Styles.cpp" -o Styles.o 
 
-thegame: Fonts.o Game.o GameMap.o Intro_to_Krusty_Krab.o KrustyKrab.o main.o MainMenu.o OptionsScrene.o Player.o SpriteMovements.o Styles.o
+WinningScreen.o: WinningScreen.o 
+	g++ -c "WinningScreen.cpp" -o WinningScreen.o 
+
+thegame: Fonts.o Game.o GameMap.o Intro_to_Krusty_Krab.o KrustyKrab.o main.o MainMenu.o OptionsScrene.o Player.o SpriteMovements.o Styles.o WinningScreen.o 
 	@echo "** Building the game **"
-	g++ -o thegame Fonts.o Game.o GameMap.o Intro_to_Krusty_Krab.o KrustyKrab.o main.o MainMenu.o OptionsScrene.o Player.o SpriteMovements.o Styles.o $(LIBS)
+	g++ -o thegame Fonts.o Game.o GameMap.o Intro_to_Krusty_Krab.o KrustyKrab.o main.o MainMenu.o OptionsScrene.o Player.o SpriteMovements.o Styles.o WinningScreen.o $(LIBS)
 
 clean:
 	@echo "** Removing object files and executable..."

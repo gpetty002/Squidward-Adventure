@@ -33,8 +33,20 @@ void KrustyKrab::loadTextures(sf::RenderWindow &window)
     topBunStackTexture.loadFromFile(styles.stackofBuns);
     
     
+    // Fonts 
     someTimeLaterFont.loadFromFile(styles.some_time_later_Font);
     impact.loadFromFile(styles.impact_Font);
+
+    // Audio
+    if (!music.openFromFile(styles.cookingKrustyKrab_audio))
+    {
+        std::cout << "cannot play cookingKrustyKrab.wav file" << std::endl;
+    }
+
+    if (!grillingEffect.openFromFile(styles.grilling_audio))
+    {
+        std::cout << "cannot play grillingSound.wav file" << std::endl;
+    }
     
     
     // Set Stack Textures with Sprites
@@ -65,7 +77,7 @@ void KrustyKrab::loadTextures(sf::RenderWindow &window)
     
     // pickles stack
     ingredientButtons[6].setTexture(picklesStackTexture);
-    ingredientButtons[6].setPosition(sf::Vector2f(60, 875));
+    ingredientButtons[6].setPosition(sf::Vector2f(40, 890));
     
     // bottom Bun stack
     ingredientButtons[7].setTexture(botBunStackTexture);
@@ -73,7 +85,7 @@ void KrustyKrab::loadTextures(sf::RenderWindow &window)
     
     // top Bun stack
     ingredientButtons[8].setTexture(topBunStackTexture);
-    ingredientButtons[8].setPosition(sf::Vector2f(15, 910));
+    ingredientButtons[8].setPosition(sf::Vector2f(15, 930));
     
 
 
@@ -134,31 +146,41 @@ void KrustyKrab::loadTextures(sf::RenderWindow &window)
     okayButton.setPosition(sf::Vector2f(800, 580));
     okayButton.setFillColor(styles.lightBrown);
     okayButton.setSize(sf::Vector2f(120, 50));
+
+    submitButton.setPosition(sf::Vector2f(900, 600));
+    submitButton.setFillColor(styles.sb_Blue);
+    submitButton.setSize(sf::Vector2f(220, 100));
+
+    submitText.setString("ORDER'S UP");
+    submitText.setFont(someTimeLaterFont);
+    submitText.setCharacterSize(44);
+    submitText.setFillColor(styles.creamColor);
+    submitText.setPosition(sf::Vector2f(915, 615));
     
     
     // Directions for Tutorial Game Window
     
-    directions[0].setString("Drag the patties to the grill. Flip them");
+    directions[0].setString("Tap the patties to hit the grill. Tap again to");
     directions[0].setFont(impact);
-    directions[0].setCharacterSize(40);
+    directions[0].setCharacterSize(35);
     directions[0].setFillColor(styles.lightBrown);
     directions[0].setPosition(sf::Vector2f(320, 450));
     
-    directions[1].setString("over then bring them over to the buns.");
+    directions[1].setString("bring them over to the buns. Don't forget");
     directions[1].setFont(impact);
-    directions[1].setCharacterSize(40);
+    directions[1].setCharacterSize(35);
     directions[1].setFillColor(styles.lightBrown);
     directions[1].setPosition(sf::Vector2f(320, 490));
     
-    directions[2].setString("Don't forget to add the other ingredients.");
+    directions[2].setString("to add other ingredients. Press OKAY to");
     directions[2].setFont(impact);
-    directions[2].setCharacterSize(40);
+    directions[2].setCharacterSize(35);
     directions[2].setFillColor(styles.lightBrown);
     directions[2].setPosition(sf::Vector2f(320, 530));
     
-    directions[3].setString("Pres okay to start");
+    directions[3].setString("start and ORDERS UP to finish.");
     directions[3].setFont(impact);
-    directions[3].setCharacterSize(40);
+    directions[3].setCharacterSize(35);
     directions[3].setFillColor(styles.lightBrown);
     directions[3].setPosition(sf::Vector2f(320, 570));
     
@@ -179,6 +201,9 @@ void KrustyKrab::loadTextures(sf::RenderWindow &window)
     clockText.setFillColor(styles.creamColor);
     clockText.setFont(someTimeLaterFont);
     clockText.setPosition(sf::Vector2f(800, 100));
+
+    music.play();
+    grillingEffect.play();
     
     
 }
@@ -219,42 +244,129 @@ void KrustyKrab::displayKrustyKrab(sf::RenderWindow &window, sf::Mouse m)
         clock.restart();
     }
 
-    if (drawPattyClicks > 0)
-    {
-        if (drawPattyClicks > 4)
-            drawPattyClicks = 4;
-        
-        // draw raw patty
-        for (int i = 0; i < drawPattyClicks; i++)
-        {
-            window.draw(rawPatties[i]);
-            krabbyPatties.push_back(rawPatties[i]);
-        }
-    }
-
     for (int j = 0; j < drawPattyClicks; j++)
     {
         int currentTime = num_seconds;
-        int passedTime = secondsAfterRawPatty[j] - currentTime;
+        passedTime[j] = secondsAfterRawPatty[j] - currentTime;
 
         // draw Burnt Patty
-        if (passedTime > 18)
+        if (passedTime[j] > 14 && onGrill[j] == true)
         {
-            window.draw(burntPatties[j]);
             krabbyPatties[j] = burntPatties[j];
-        } else if (passedTime > 10)
+        } else if (passedTime[j] > 8)
         {
             // draw Perfect Patty
-            window.draw(perfectPatties[j]);
             krabbyPatties[j] = perfectPatties[j];
+        } else {
+            // draw raw Patty
+            krabbyPatties[j] = rawPatties[j];
         }
+
+        if (movingPatty[j])
+        {
+            movePatty(j, krabbyPatties);
+        }
+        
+        window.draw(krabbyPatties[j]);
+    }
+
+    for (int k = 0; k < drawCheeseClicks; k++)
+    {
+        cheese[k] = ingredients[0];
+        switch (k)
+        {
+        case 0:
+            cheese[k].setPosition(sf::Vector2f(250,740));
+            break;
+        case 1:
+            cheese[k].setPosition(sf::Vector2f(220,810));
+            break;
+        case 2:
+            cheese[k].setPosition(sf::Vector2f(200,870));
+            break;
+        case 3:
+            cheese[k].setPosition(sf::Vector2f(160,950));
+            break;
+        default:
+            break;
+        }
+        window.draw(cheese[k]);
+    }
+
+    for (int l = 0; l < drawLettuceClicks; l++)
+    {
+        lettuce[l] = ingredients[1];
+        switch (l)
+        {
+        case 0:
+            lettuce[l].setPosition(sf::Vector2f(250, 730));
+            break;
+        case 1:
+            lettuce[l].setPosition(sf::Vector2f(220, 800));
+            break;
+        case 2:
+            lettuce[l].setPosition(sf::Vector2f(200, 860));
+            break;
+        case 3:
+            lettuce[l].setPosition(sf::Vector2f(160, 940));
+            break;
+        default:
+            break;
+        }
+        window.draw(lettuce[l]);
+    }
+
+    for (int m = 0; m < drawTopBunsClicks; m++)
+    {
+        topBuns[m] = ingredients[2];
+
+        switch (m)
+        {
+        case 0:
+            topBuns[m].setPosition(sf::Vector2f(260, 680));
+            break;
+        case 1:
+            topBuns[m].setPosition(sf::Vector2f(240, 770));
+            break;
+        case 2:
+            topBuns[m].setPosition(sf::Vector2f(220, 840));
+            break;
+        case 3:
+            topBuns[m].setPosition(sf::Vector2f(170, 910));
+            break;
+        default:
+            break;
+        }
+        window.draw(topBuns[m]);
     }
     
+    if (finishedGame)
+    {
+        window.draw(submitButton);
+        window.draw(submitText);
+    }
+
 }
 
-void movePatty(sf:: Sprite s)
+void KrustyKrab::movePatty(int x, sf:: Sprite s[])
 {
-    s.setPosition(sf::Vector2f(300, 720));
+    switch (x)
+    {
+    case 0:
+        s[x].setPosition(sf::Vector2f(260, 750));
+        break;
+    case 1:
+        s[x].setPosition(sf::Vector2f(220, 820));
+        break;
+    case 2:
+        s[x].setPosition(sf::Vector2f(200, 880));
+        break;
+    case 3:
+        s[x].setPosition(sf::Vector2f(160, 950));
+        break;
+    default:
+        break;
+    }
 }
 
 void KrustyKrab::endOfGame()

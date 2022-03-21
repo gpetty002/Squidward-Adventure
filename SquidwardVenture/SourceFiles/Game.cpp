@@ -198,33 +198,80 @@ void Game::pollEvents()
                     } else if (spriteClicked(krustyKrab.ingredientButtons[0], m, *window))
                     {
                         krustyKrab.drawPattyClicks++;
+
+                        if (krustyKrab.drawPattyClicks > 4)
+                        {
+                            krustyKrab.drawPattyClicks = 4;
+                        }
+                        
                         switch (krustyKrab.drawPattyClicks)
                         {
                         case 1:
                             krustyKrab.secondsAfterRawPatty[0] = krustyKrab.num_seconds;
-                            std::cout << krustyKrab.secondsAfterRawPatty[0] << "\n";
+                            krustyKrab.onGrill[0] = true;
                             break;
                         case 2:
                             krustyKrab.secondsAfterRawPatty[1] = krustyKrab.num_seconds;
-                            std::cout << krustyKrab.secondsAfterRawPatty[1] << "\n";
+                            krustyKrab.onGrill[1] = true;
                             break;
                         case 3:
                             krustyKrab.secondsAfterRawPatty[2] = krustyKrab.num_seconds;
+                            krustyKrab.onGrill[2] = true;
                             break;
                         case 4:
                             krustyKrab.secondsAfterRawPatty[3] = krustyKrab.num_seconds;
+                            krustyKrab.onGrill[3] = true;
                             break;
                         default:
                             break;
                         }
-                    } else if (spriteClicked(krustyKrab.krabbyPatties[0], m, *window))
+                    } else if ((spriteClicked(krustyKrab.krabbyPatties[3], m, *window)) && (krustyKrab.passedTime[3] >= 8))
                     {
-                        krustyKrab.movePatty(krustyKrab.krabbyPatties[0]);
+                        krustyKrab.onGrill[3] = false;
+                        krustyKrab.movingPatty[3] = true;
+                    } else if ((spriteClicked(krustyKrab.krabbyPatties[2], m, *window)) && (krustyKrab.passedTime[2] >= 8))
+                    {
+                        krustyKrab.onGrill[2] = false;
+                        krustyKrab.movingPatty[2] = true;
+                    } else if ((spriteClicked(krustyKrab.krabbyPatties[1], m, *window)) && (krustyKrab.passedTime[1] >= 8))
+                    {
+                        krustyKrab.onGrill[1] = false;
+                        krustyKrab.movingPatty[1] = true;
+                    } else if ((spriteClicked(krustyKrab.krabbyPatties[0], m, *window)) && (krustyKrab.passedTime[0] >= 8))
+                    {
+                        krustyKrab.onGrill[0] = false;
+                        krustyKrab.movingPatty[0] = true;
+                    } else if (spriteClicked(krustyKrab.ingredientButtons[4], m, *window))
+                    {
+                        krustyKrab.drawCheeseClicks++;
+
+                        if (krustyKrab.drawCheeseClicks > 4)
+                            krustyKrab.drawCheeseClicks = 4;
+
+                    } else if (spriteClicked(krustyKrab.ingredientButtons[5], m, *window))
+                    {
+                        krustyKrab.drawLettuceClicks++;
+
+                        if (krustyKrab.drawLettuceClicks > 4)
+                            krustyKrab.drawLettuceClicks = 4;
+                    } else if (spriteClicked(krustyKrab.ingredientButtons[8], m, *window))
+                    {
+                        krustyKrab.drawTopBunsClicks++;
+
+                        if (krustyKrab.drawTopBunsClicks >= 4)
+                        {
+                            krustyKrab.drawTopBunsClicks = 4;
+                            krustyKrab.finishedGame = true;
+                        }
+                    } else if (buttonClicked(krustyKrab.submitButton, m, *window))
+                    {
+                        krustyKrab.onKrustyKrab = false;
+                        krustyKrab.music.stop();
+                        krustyKrab.grillingEffect.stop();
+                        winScreen.onWinningScreen = true;
+                        winScreen.loadTextures(*window);
                     }
 
-
-                    
-                    
                 }
                 break;
         }
@@ -268,6 +315,11 @@ void Game::render()
         this->window->clear();
         sf::Mouse m;
         krustyKrab.displayKrustyKrab(*window, m);
+    } else if (winScreen.onWinningScreen)
+    {
+        this->window->clear();
+        sf::Mouse m;
+        winScreen.displayWinScreen(*window,m);
     }
     
     this->window->display();
