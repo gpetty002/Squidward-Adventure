@@ -49,6 +49,8 @@ public:
     sf::Clock clock;
     sf::Music music;
     sf::Music grillingEffect;
+    sf::Music foodFallingEffect;
+    sf::Music bubbles;
     int customers = 7;
     int num_seconds = 55;
     int drawPattyClicks = 0;

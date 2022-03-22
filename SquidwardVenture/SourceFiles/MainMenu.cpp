@@ -130,10 +130,17 @@ void MainMenu::loadTextures(float width, float height, sf::RenderWindow &window)
     flowers[9].setOrigin(50.f, 50.f);
     
     selectedItemIndex = 0;
+
+    // Audio
     
     if (!music.openFromFile(styles.mainMenu_audio))
     {
-        std::cout << "cannot play music file" << std::endl;
+        std::cout << "cannot play game_intro.wav file" << std::endl;
+    }
+
+    if (!buttonEffect.openFromFile(styles.bubbles_audio))
+    {
+        std::cout << "cannot play bubbles.wav file" << std::endl;
     }
     
     // Play music

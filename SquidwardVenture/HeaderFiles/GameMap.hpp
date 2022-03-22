@@ -41,6 +41,7 @@ public:
     
     // Game Map Music
     sf::Music music;
+    sf::Music buttonEffect;
     
     // Functions
     void loadTextures(float width, float height, sf::RenderWindow &window);

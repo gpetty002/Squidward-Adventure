@@ -34,7 +34,6 @@ public:
     sf::Texture squidwardTexture;
     sf::Texture flowerTexture;
     sf::CircleShape flowers[FLOWERS_IN_MAIN];
-//    sf::Sprite flowerSprite;
     sf::Text title;
     sf::RectangleShape titleBackground;
     sf::Text createdBy;
@@ -47,6 +46,7 @@ public:
     
     // Main Menu Music
     sf::Music music;
+    sf::Music buttonEffect;
     
     // Functions
     void loadTextures(float width, float height, sf::RenderWindow &window);

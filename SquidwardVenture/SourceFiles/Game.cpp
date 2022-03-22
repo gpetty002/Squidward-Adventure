@@ -137,6 +137,7 @@ void Game::pollEvents()
                                     gameMap.onGameMap = true;
                                     gameMap.loadTextures(window->getSize().x, window->getSize().y, *window);
                                     menu.stopMusic();
+                                    menu.buttonEffect.play();
                                     break;
                                 
                                 case 2:
@@ -169,6 +170,7 @@ void Game::pollEvents()
                                     gameMap.onGameMap = false;
                                     introKrustyKrab.onIntroScreen = true;
                                     introKrustyKrab.loadTextures(*window);
+                                    gameMap.buttonEffect.play();
                                     gameMap.stopMusic();
                                     break;
                             }
@@ -197,6 +199,7 @@ void Game::pollEvents()
                         krustyKrab.onTutorialWindow = false;
                     } else if (spriteClicked(krustyKrab.ingredientButtons[0], m, *window))
                     {
+                        krustyKrab.foodFallingEffect.play();
                         krustyKrab.drawPattyClicks++;
 
                         if (krustyKrab.drawPattyClicks > 4)
@@ -233,24 +236,34 @@ void Game::pollEvents()
                     {
                         krustyKrab.onGrill[2] = false;
                         krustyKrab.movingPatty[2] = true;
+                        krustyKrab.foodFallingEffect.play();
                     } else if ((spriteClicked(krustyKrab.krabbyPatties[1], m, *window)) && (krustyKrab.passedTime[1] >= 8))
                     {
                         krustyKrab.onGrill[1] = false;
                         krustyKrab.movingPatty[1] = true;
+                        krustyKrab.foodFallingEffect.play();
                     } else if ((spriteClicked(krustyKrab.krabbyPatties[0], m, *window)) && (krustyKrab.passedTime[0] >= 8))
                     {
                         krustyKrab.onGrill[0] = false;
                         krustyKrab.movingPatty[0] = true;
+                        krustyKrab.foodFallingEffect.play();
                     } else if (spriteClicked(krustyKrab.ingredientButtons[4], m, *window))
                     {
+                        // Check clicks for Cheese
+
                         krustyKrab.drawCheeseClicks++;
+                        krustyKrab.foodFallingEffect.play();
 
                         if (krustyKrab.drawCheeseClicks > 4)
                             krustyKrab.drawCheeseClicks = 4;
 
                     } else if (spriteClicked(krustyKrab.ingredientButtons[5], m, *window))
                     {
+                        // Check clicks for Lettuce
+
                         krustyKrab.drawLettuceClicks++;
+
+                        krustyKrab.foodFallingEffect.play();
 
                         if (krustyKrab.drawLettuceClicks > 4)
                             krustyKrab.drawLettuceClicks = 4;
@@ -266,10 +279,12 @@ void Game::pollEvents()
                     } else if (buttonClicked(krustyKrab.submitButton, m, *window))
                     {
                         krustyKrab.onKrustyKrab = false;
+                        krustyKrab.bubbles.play();
                         krustyKrab.music.stop();
                         krustyKrab.grillingEffect.stop();
                         winScreen.onWinningScreen = true;
                         winScreen.loadTextures(*window);
+
                     }
 
                 }

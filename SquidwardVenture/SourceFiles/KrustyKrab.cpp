@@ -47,6 +47,16 @@ void KrustyKrab::loadTextures(sf::RenderWindow &window)
     {
         std::cout << "cannot play grillingSound.wav file" << std::endl;
     }
+
+    if (!foodFallingEffect.openFromFile(styles.fallingFood_audio))
+    {
+        std::cout << "cannot play foodFalling.wav file" << std::endl;
+    }
+
+    if (!bubbles.openFromFile(styles.bubbles_audio))
+    {
+        std::cout << "cannot play bubbles.wav file" << std::endl;
+    }
     
     
     // Set Stack Textures with Sprites
@@ -149,7 +159,7 @@ void KrustyKrab::loadTextures(sf::RenderWindow &window)
 
     submitButton.setPosition(sf::Vector2f(900, 600));
     submitButton.setFillColor(styles.sb_Blue);
-    submitButton.setSize(sf::Vector2f(220, 100));
+    submitButton.setSize(sf::Vector2f(220, 80));
 
     submitText.setString("ORDER'S UP");
     submitText.setFont(someTimeLaterFont);

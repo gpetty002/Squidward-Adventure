@@ -99,6 +99,11 @@ public:
     string cookingKrustyKrab_audio = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Audio/cookingKrustyKrab.wav";
 
     string cocktail_audio = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Audio/cocktail_Lounge.wav";
+    
+    string fallingFood_audio = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Audio/foodFalling.wav";
+    
+    string bubbles_audio = "/Users/gissellepetty/Desktop/cppStuff/SquidwardVenture/SquidwardVenture/ResourceFiles/Audio/bubbles.wav";
+
     // Colors
     
     sf::Color creamColor = sf::Color(255, 252, 235);

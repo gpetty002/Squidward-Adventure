@@ -68,10 +68,17 @@ void GameMap::loadTextures(float width, float height, sf::RenderWindow &window)
     background.loadFromFile(styles.gameMapImgPath);
     
     bg.setTexture(background);
+
+    // Audio
     
     if (!music.openFromFile(styles.gameMap_audio))
     {
         std::cout << "cannot play game_map_music.wav file" << std::endl;
+    }
+
+    if (!buttonEffect.openFromFile(styles.bubbles_audio))
+    {
+        std::cout << "cannot play bubbles.wav file" << std::endl;
     }
     
     // squidward sprite
